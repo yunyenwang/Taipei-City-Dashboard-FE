@@ -69,7 +69,7 @@ public class GeoUtils {
 		} else { // use triangle area to get the distance between x and line
 			double s = (a + b + c) / 2;			
 			double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));			
-			
+			// good
 			return area * 2 / c; // vertical height from x to line 
 		}
 	}
