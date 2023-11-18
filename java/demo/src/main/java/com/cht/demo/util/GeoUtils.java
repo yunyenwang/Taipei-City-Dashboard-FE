@@ -3,6 +3,7 @@ package com.cht.demo.util;
 import java.util.ArrayList;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.geojson.Crs;
 import org.geojson.Feature;
 import org.geojson.FeatureCollection;
@@ -44,6 +45,28 @@ public class GeoUtils {
 		return fc;
 	}
 	
+	public static String toGeoAddress(String address) {
+		var chs = address.toCharArray();
+		
+		for (int i = chs.length - 1;i >= 0;i--) {
+			var ch = chs[i];
+			if ('段' == ch || '巷' == ch || '路' == ch || '街' == ch) {
+				var address1 = StringUtils.trim(address.substring(i + 1));
+				var x = address1.indexOf('號');
+				if (x > 0) {
+					address1 = address1.substring(0, x + 1);
+				}				
+				
+				var address2 = StringUtils.trim(address.substring(0, i + 1));
+				
+				address = String.format("%s, %s", address1, address2);
+				
+				break;
+			}			
+		}
+		
+		return address;		
+	}	
 	
 	public static double degreesToRadians(double degrees) {
 		return degrees * (Math.PI / 180);

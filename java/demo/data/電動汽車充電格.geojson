@@ -1,0 +1,1831 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "百齡高中地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52363586425781,
+          25.085783004760742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "承德公園地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52218627929688,
+          25.0899600982666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "社子國小地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50300598144531,
+          25.089832305908203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "前港公園地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52025604248047,
+          25.085081100463867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "海光公園地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50830841064453,
+          25.081340789794922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "福林公園地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53050994873047,
+          25.095827102661133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蘭雅公園地下停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52924346923828,
+          25.109569549560547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大稻埕公園地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51056671142578,
+          25.058347702026367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大龍國小地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51673126220703,
+          25.073406219482422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成淵高中地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5185775756836,
+          25.061237335205078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "延平國小地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51235961914062,
+          25.066011428833008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建成公園地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51825714111328,
+          25.05388832092285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建成國中地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50985717773438,
+          25.052021026611328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "啟聰學校地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51175689697266,
+          25.07430076599121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "朝陽公園地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51374053955078,
+          25.056154251098633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "塔城公園地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51065063476562,
+          25.050878524780273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蓬萊國小地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51559448242188,
+          25.056543350219727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "明倫社會住宅地下停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51971435546875,
+          25.073326110839844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安森林公園地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537353515625,
+          25.03202247619629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金華公園地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53114318847656,
+          25.02965545654297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "附中公園地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54244995117188,
+          25.036333084106445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "僑安地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55683135986328,
+          25.041053771972656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "嘉興公園地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55189514160156,
+          25.02174949645996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龍門國中地下停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53819274902344,
+          25.02479362487793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "市民大道中林段地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522705078125,
+          25.0418701171875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永盛公園地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5245132446289,
+          25.059249877929688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "林森公園地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52693176269531,
+          25.053050994873047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "長安國小地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53121948242188,
+          25.050392150878906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "進安公園地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53761291503906,
+          25.04602813720703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "榮星花園地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53765106201172,
+          25.063915252685547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "濱江國中地下停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56168365478516,
+          25.079530715942383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山堂地下停車場",
+        "district": "中正區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51012420654297,
+          25.04309844970703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大湖公園地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60237121582031,
+          25.08342742919922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西康地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56375885009766,
+          25.08475112915039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西湖公園地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57036590576172,
+          25.083650588989258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東湖國小地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6158218383789,
+          25.06859016418457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "康樂合署大樓地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61927795410156,
+          25.072677612304688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "麗湖國小地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.601318359375,
+          25.073123931884766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內湖污水處理廠附屬公園停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57464599609375,
+          25.066177368164062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "瑞光社會住宅地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57933044433594,
+          25.07337188720703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永建國小地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55591583251953,
+          24.989240646362305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "辛亥國小地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55855560302734,
+          25.00629234313965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景美國小地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540283203125,
+          24.988433837890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景華公園地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54381561279297,
+          24.995174407958984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬興國小地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57666015625,
+          24.98961639404297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北花木批發市場地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54021453857422,
+          25.004501342773438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "興隆D1區公共住宅地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55801391601562,
+          24.98801612854004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "興隆D2區公共住宅地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56251525878906,
+          24.988136291503906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "興隆公園地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55132293701172,
+          25.000619888305664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木柵社會住宅地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56636047363281,
+          24.98920440673828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大豐公園地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50415802001953,
+          25.13115119934082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石牌國小地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51175689697266,
+          25.115636825561523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "立農公園地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50334167480469,
+          25.118467330932617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "振興公園地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52327728271484,
+          25.11876106262207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新奇岩社會住宅地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50328063964844,
+          25.123668670654297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八德立體停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57185363769531,
+          25.049633026123047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中崙高中地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5610580444336,
+          25.048686981201172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民生立體停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55950164794922,
+          25.058422088623047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民生社區活動中心地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56260681152344,
+          25.059053421020508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民有市場地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54676818847656,
+          25.060501098632812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民權公園地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55078887939453,
+          25.061458587646484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山國小地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57926177978516,
+          25.051172256469727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "健康國小地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56294250488281,
+          25.056617736816406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "偶戲博物館地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56147766113281,
+          25.0478572845459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "健康1區社會住宅地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56410217285156,
+          25.054332733154297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "健康2區社會住宅地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56586456298828,
+          25.054428100585938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三張里地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56683349609375,
+          25.030515670776367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五分埔公園地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58043670654297,
+          25.046606063842773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "忠信公園地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56901550292969,
+          25.025135040283203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山工農地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57205200195312,
+          25.03982925415039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山車站地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57826232910156,
+          25.048433303833008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山高中地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56584167480469,
+          25.04384994506836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松壽廣場地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5654067993164,
+          25.032846450805664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信義廣場地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56648254394531,
+          25.033069610595703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "春光公園地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58080291748047,
+          25.042327880859375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景勤二號公園地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55843353271484,
+          25.02688980102539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雅祥公園地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57170867919922,
+          25.047632217407227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "興雅國中地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57280731201172,
+          25.034826278686523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信義區行政中心地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58197021484375,
+          25.037717819213867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "廣慈衛福大樓地下停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5828857421875,
+          25.038606643676758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "世貿公園地下停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61624145507812,
+          25.057762145996094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "玉成公園地下停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58698272705078,
+          25.04218864440918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "玉成國小地下停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5927505493164,
+          25.053117752075195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南港國小地下停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61116790771484,
+          25.0565128326416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "興中立體停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6068115234375,
+          25.05617332458496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古亭國中地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50999450683594,
+          25.02393341064453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青年公園高爾夫球場地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50773620605469,
+          25.024444580078125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青年公園棒球場地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50296020507812,
+          25.023359298706055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "洛陽綜合立體停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49727630615234,
+          25.039018630981445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "峨眉立體停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50525665283203,
+          25.043962478637695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬華車站地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50031280517578,
+          25.03335952758789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬華國中地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49881744384766,
+          25.029172897338867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "艋舺公園地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49951171875,
+          25.036117553710938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青年一期社會住宅地下停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50385284423828,
+          25.019948959350586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "士林區行政中心停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5196304321289,
+          25.09287452697754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "士林運動中心停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5213623046875,
+          25.089365005493164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天文科學教育館停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51828002929688,
+          25.095813751220703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "兒童新樂園停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51409912109375,
+          25.096864700317383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "應安士林一停車場",
+        "district": "士林區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5323715209961,
+          25.111400604248047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大同區行政中心停車場",
+        "district": "大同區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51513671875,
+          25.066001892089844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安地政事務所停車場",
+        "district": "大安區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55642700195312,
+          25.0338134765625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山區行政中心停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53353881835938,
+          25.064395904541016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "第一殯儀館停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53642272949219,
+          25.062602996826172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "第二果菜批發市場停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53738403320312,
+          25.06792449951172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龍江八德站停車場",
+        "district": "中山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54055786132812,
+          25.047378540039062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "K區地下街停車場",
+        "district": "中正區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51676940917969,
+          25.0468807220459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水源大樓停車場",
+        "district": "中正區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53500366210938,
+          25.013742446899414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北市客家文化主題公園停車場",
+        "district": "中正區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52544403076172,
+          25.02011489868164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內湖垃圾焚化廠地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60346984863281,
+          25.062772750854492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西湖市場暨捷運站地下停車場",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56660461425781,
+          25.082441329956055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北市立南湖高級中學",
+        "district": "內湖區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6111068725586,
+          25.066913604736328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文山區行政中心停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57012939453125,
+          24.989595413208008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木柵站停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57347106933594,
+          24.998188018798828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木柵機廠轉乘停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58377075195312,
+          25.000324249267578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "動物園站地下停車場",
+        "district": "文山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58224487304688,
+          24.999900817871094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北投垃圾焚化廠地下停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49916076660156,
+          25.108654022216797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北投區行政中心停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50276184082031,
+          25.13266372680664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北投運動中心停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5096664428711,
+          25.116283416748047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北投機廠停車場",
+        "district": "北投區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48391723632812,
+          25.13493537902832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "市立田徑場地下停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55451202392578,
+          25.06696891784668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山運動中心停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55265808105469,
+          25.065261840820312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "科技服務大樓附屬停車樓汽車停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5547103881836,
+          25.059160232543945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北體育館停車場",
+        "district": "松山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55195617675781,
+          25.05128288269043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "市議會停車場",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56201171875,
+          25.03801918029785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松德大樓",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57429504394531,
+          25.032020568847656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北市立永春高級中學",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57865905761719,
+          25.032651901245117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "臺北市立松山高級商業家事職業學校",
+        "district": "信義區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58018493652344,
+          25.034807205200195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內湖機廠轉乘停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61764526367188,
+          25.0618953704834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南港運動中心停車場",
+        "district": "南港區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.581787109375,
+          25.04880142211914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬華區行政中心停車場",
+        "district": "萬華區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49980163574219,
+          25.034988403320312
+        ]
+      }
+    }
+  ]
+}
