@@ -7,6 +7,14 @@ public class MapEntity {
 
 	Double lat;
 	Double lon;	
+	String display_name;
+	Address address;
+
+	@Data
+	public static class Address {
+		public String suburb;
+
+	}
 }
 
 /*

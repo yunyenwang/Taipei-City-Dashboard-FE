@@ -1,9 +1,14 @@
 package com.cht.demo;
 
+
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
@@ -76,7 +81,7 @@ public class GeoCooker {
 		
 		return Optional.empty();
 	}
-	
+
 	/**
 	 * 『里』轉換為『行政區』	
 	 * @return
@@ -98,5 +103,35 @@ public class GeoCooker {
 		}
 		
 		return lieToDistrict;
+	}
+	
+	protected Optional<MapEntity> findByLatLon(Double latitude,Double longitude)  {
+		var u = "https://nominatim.openstreetmap.org/search";		
+
+		HttpUrl url = HttpUrl.parse(u).newBuilder()
+				.addQueryParameter("q", String.format("%f, %f", latitude,longitude))
+				.addQueryParameter("format", "json")
+				.addQueryParameter("polygon", "1")
+				.addQueryParameter("addressdetails", "1")				
+				.build();
+
+		try {		
+			Request request = new Request.Builder().url(url).get().build();
+			try (Response response = client.newCall(request).execute()) {
+				String responseBody = response.body().string();
+				
+				var mes = JsonUtils.fromJson(responseBody, MapEntity[].class);
+
+				if (mes.length > 0) {
+			
+					return Optional.of(mes[0]);
+				}
+			}
+			
+		} catch (Exception e) {
+			log.error("Error", e);
+		}
+		
+		return Optional.empty();
 	}
 }
