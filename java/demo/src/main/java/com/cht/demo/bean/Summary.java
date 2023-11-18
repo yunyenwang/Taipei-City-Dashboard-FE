@@ -10,11 +10,12 @@ public class Summary {
 	
 	@lombok.Data	
 	public static class Data {
+		public String type;
 		public String name;		
 		public String x;
 		public Integer y;
 		
-		List<Data> data;		
+		List<Data> data;
 
 		public Data() {			
 		}

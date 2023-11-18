@@ -579,33 +579,34 @@ public class ExistedChargerCooker extends GeoCooker {
 		}
 	}
 
+	/**
+	 * 電動車位成長量
+	 * 
+	 * @throws Exception
+	 */
 	
-//	/**
-//	 * 電動汽車充電格 統計
-//	 * 
-//	 * @throws Exception
-//	 */	
-//	@Test
-//	void toExistedChargerSummary() throws Exception {
-//		try (var fis = new FileInputStream("data/電動汽車充電格.csv")) {
-//			var reader = new InputStreamReader(fis, "UTF-8");			
-//			var parser = new CSVParser(reader, CSVFormat.EXCEL.builder().setHeader().build());
-//			
-//			var districts = Summary.districts();
-//			
-//			for (var r : parser) {
-//				var ssss = r.get(0);
-//				
-//				var district = StringUtils.trim(ssss.substring(0, 3));
-//				var name =  StringUtils.trim(ssss.substring(3));				
-//				var address = r.get(1);
-//				address = GeoUtils.toGeoAddress(address);				
-//				address = String.format("%s, %s, 臺北市", address, district);
-//				
-//				districts.increase(district, 1);
-//			}
-//			
-//			System.out.println(JsonUtils.toPrettyPrintJson(districts));
-//		}
-//	}
+	@Test
+	void toGrowUp() throws Exception {
+		var s = new Stack();
+		
+		try (var fis = new FileInputStream("data/停車格成長.csv")) {
+			var reader = new InputStreamReader(fis, "BIG5");			
+			var parser = new CSVParser(reader, CSVFormat.EXCEL.builder().setHeader().setSkipHeaderRecord(true).build());
+			
+			for (var r : parser) {
+				var year = new Stack.StackData();
+				year.setName(r.get(0));
+				s.getData().add(year);
+				
+				year.getData().add(Integer.parseInt(r.get(2))); // 汽車
+				year.getData().add(Integer.parseInt(r.get(3))); // 機車				
+			}
+		}
+		
+		try (var fw = new FileWriter("data/停車格成長彙整.json")) {
+			JsonUtils.toPrettyPrintJson(fw, s);
+		}
+	}
+
+	
 }
