@@ -1,13 +1,19 @@
 package com.cht.demo;
 
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.lang3.StringUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.locationtech.proj4j.CRSFactory;
@@ -120,6 +126,16 @@ public class DataTaipeiApiTest extends GeoCooker {
 					}
 				}
 
+				findByLatLon(lan, lon).ifPresent(me -> {
+
+					var district = me.getAddress().getSuburb();
+
+					// 將設置日期加入屬性
+					properties.put("district", district);
+					log.info("lon: {}, lat: {}, district:{}", me.getLon(), me.getLat(), district);
+
+				});
+
 				// 提取設置日期
 				String setDate = "";
 				JsonNode timeInstant = feature.get(head).get("設置日期").get("TimeInstant");
@@ -128,6 +144,9 @@ public class DataTaipeiApiTest extends GeoCooker {
 				}
 				// 將設置日期加入屬性
 				properties.put("設置日期", setDate);
+
+				// 將type設定變電箱
+				properties.put("type", "配電站");
 
 				var pe = new PointEntity(properties, (float) lon, (float) lan);
 				GeoUtils.addPoint(fc, pe);
@@ -347,6 +366,16 @@ public class DataTaipeiApiTest extends GeoCooker {
 
 					}
 
+					findByLatLon(lan, lon).ifPresent(me -> {
+
+						var district = me.getAddress().getSuburb();
+
+						// 將設置日期加入屬性
+						properties.put("district", district);
+						log.info("lon: {}, lat: {}, district:{}", me.getLon(), me.getLat(), district);
+
+					});
+
 					// 提取設置日期
 					String setDate = "";
 					JsonNode timeInstant = feature.get(head).get("設置日期").get("TimeInstant");
@@ -355,6 +384,9 @@ public class DataTaipeiApiTest extends GeoCooker {
 					}
 					// 將設置日期加入屬性
 					properties.put("設置日期", setDate);
+
+					// 將type設定變壓器
+					properties.put("type", "變壓器");
 
 					var pe = new PointEntity(properties, (float) lon, (float) lan);
 					GeoUtils.addPoint(fc, pe);
@@ -412,31 +444,143 @@ public class DataTaipeiApiTest extends GeoCooker {
 					var lan = result.y;
 					findByLatLon(lan, lon).ifPresent(me -> {
 
-					
 						var district = me.getAddress().getSuburb();
-						
+
 						log.info("lon: {}, lat: {}, district:{}", me.getLon(), me.getLat(), district);
 						districts.increase(district, 1);
-//						var pe = new PointEntity(Map.of(
-//								"name", name,
-//								"district", district),
-//								me.getLon(), me.getLat()
-//								);
-//						
-//						GeoUtils.addPoint(fc, pe);
 					});
 
 				}
 			}
 			log.info("lon: {}", JsonUtils.toPrettyPrintJson(districts));
-//			// 將GeoJSON寫入文件
-//			ObjectMapper objectMapper = new ObjectMapper();
-//			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-//			objectMapper.writeValue(new File(String.format("%s.geojson", name)), districts);
+			// 將GeoJSON寫入文件
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+			objectMapper.writeValue(new File(String.format("%s行政區統計.geojson", name)), districts);
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	/**
+	 * 變電站統計(from geojson)
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	void toTransformerStationSummaryGeoJson() throws Exception {
+
+		try {
+			var file = "data/變壓器.geojson";
+			String name = file.substring(0, file.lastIndexOf("."));
+			// 讀取JSON檔案
+			JSONObject json = readJSONFile(file);
+			// 提取features陣列
+			JSONArray features = json.getJSONArray("features");
+			// 建立儲存district的List
+			List<String> districts = new ArrayList<>();
+			// 遍歷features陣列
+			for (int i = 0; i < features.length(); i++) {
+				JSONObject feature = features.getJSONObject(i);
+				JSONObject properties = feature.getJSONObject("properties");
+				String district = properties.getString("district");
+				districts.add(district);
+			}
+
+			var districtss = Summary.districts();
+
+			// 遍歷featureMember
+			for (String district : districts) {
+
+				districtss.increase(district, 1);
+
+			}
+			log.info("lon: {}", JsonUtils.toPrettyPrintJson(districtss));
+			// 將GeoJSON寫入文件
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+			objectMapper.writeValue(new File(String.format("%s行政區統計.geojson", name)), districtss);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * 變電箱統計(第三組建)
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	void merge() throws Exception {
+		try {
+			// 讀取配電站.geojson檔案
+			JSONObject geojson1 = readJSONFile("data/配電站.geojson");
+			// 讀取配電箱.geojson檔案
+			JSONObject geojson2 = readJSONFile("data/配電箱.geojson");
+			// 提取配電站和配電箱的數據
+			JSONArray data1 = geojson1.getJSONArray("data").getJSONObject(0).getJSONArray("data");
+			JSONArray data2 = geojson2.getJSONArray("data").getJSONObject(0).getJSONArray("data");
+			// 依照固定行政區順序組合數據
+			String[] districts = { "北投區", "士林區", "內湖區", "南港區", "松山區", "信義區", "中山區", "大同區", "中正區", "萬華區", "大安區", "文山區" };
+			JSONArray combinedData = new JSONArray();
+			JSONArray data1Combined = new JSONArray();
+			for (String district : districts) {
+				int index = getIndex(data1, district);
+				if (index != -1) {
+					data1Combined.put(data1.getJSONObject(index).getInt("y"));
+				}
+			}
+			JSONObject data1Object = new JSONObject();
+			data1Object.put("name", "配電站");
+			data1Object.put("data", data1Combined);
+			combinedData.put(data1Object);
+			JSONArray data2Combined = new JSONArray();
+			for (String district : districts) {
+				int index = getIndex(data2, district);
+				if (index != -1) {
+					data2Combined.put(data2.getJSONObject(index).getInt("y"));
+				}
+			}
+			JSONObject data2Object = new JSONObject();
+			data2Object.put("name", "配電箱");
+			data2Object.put("data", data2Combined);
+			combinedData.put(data2Object);
+			JSONObject combinedJSON = new JSONObject();
+			combinedJSON.put("data", combinedData);
+			// 將結果儲存為新的JSON檔案
+			writeJSONFile(combinedJSON, "combined_data.json");
+		} catch (IOException | JSONException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private static JSONObject readJSONFile(String filename) throws IOException, JSONException {
+		FileReader fileReader = new FileReader(filename);
+		StringBuilder stringBuilder = new StringBuilder();
+		int character;
+		while ((character = fileReader.read()) != -1) {
+			stringBuilder.append((char) character);
+		}
+		fileReader.close();
+		return new JSONObject(stringBuilder.toString());
+	}
+
+	private static void writeJSONFile(JSONObject jsonObject, String filename) throws IOException {
+		FileWriter fileWriter = new FileWriter(filename);
+		fileWriter.write(jsonObject.toString());
+		fileWriter.close();
+	}
+
+	private static int getIndex(JSONArray jsonArray, String district) throws JSONException {
+		for (int i = 0; i < jsonArray.length(); i++) {
+			String x = jsonArray.getJSONObject(i).getString("x");
+			if (district.equals(x)) {
+				return i;
+			}
+		}
+		return -1;
 	}
 
 }
