@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class MapEntity {
 
-	Float lat;
-	Float lon;
+	Double lat;
+	Double lon;	
 	String display_name;
 	Address address;
 

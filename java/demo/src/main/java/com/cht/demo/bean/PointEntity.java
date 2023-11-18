@@ -11,6 +11,6 @@ public class PointEntity {
 
 	Map<String, Object> properties;
 	
-	Float lon;
-	Float lat;	
+	Double lon;
+	Double lat;	
 }

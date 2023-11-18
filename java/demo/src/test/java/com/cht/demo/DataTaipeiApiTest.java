@@ -114,7 +114,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 				var lon = result.x;
 				var lan = result.y;
 
-//				log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
+				// log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
 
 				Map<String, Object> properties = new HashMap<String, Object>();
 				Iterator<String> fieldNames = feature.get(head).fieldNames();
@@ -145,10 +145,8 @@ public class DataTaipeiApiTest extends GeoCooker {
 				// 將設置日期加入屬性
 				properties.put("設置日期", setDate);
 
-				// 將type設定變電箱
-				properties.put("type", "配電站");
+				var pe = new PointEntity(properties, lon, lan);
 
-				var pe = new PointEntity(properties, (float) lon, (float) lan);
 				GeoUtils.addPoint(fc, pe);
 			}
 
@@ -201,7 +199,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					var lon = result.x;
 					var lan = result.y;
 
-//				log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
+					// log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
 
 					Map<String, Object> properties = new HashMap<String, Object>();
 					Iterator<String> fieldNames = feature.get(head).fieldNames();
@@ -223,7 +221,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					// 將設置日期加入屬性
 					properties.put("設置日期", setDate);
 
-					var pe = new PointEntity(properties, (float) lon, (float) lan);
+					var pe = new PointEntity(properties, lon, lan);
 					GeoUtils.addPoint(fc, pe);
 				}
 			}
@@ -277,7 +275,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					var lon = result.x;
 					var lan = result.y;
 
-//				log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
+					// log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
 
 					Map<String, Object> properties = new HashMap<String, Object>();
 					Iterator<String> fieldNames = feature.get(head).fieldNames();
@@ -299,7 +297,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					// 將設置日期加入屬性
 					properties.put("設置日期", setDate);
 
-					var pe = new PointEntity(properties, (float) lon, (float) lan);
+					var pe = new PointEntity(properties, lon, lan);
 					GeoUtils.addPoint(fc, pe);
 				}
 			}
@@ -353,7 +351,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					var lon = result.x;
 					var lan = result.y;
 
-//				log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
+					// log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
 
 					Map<String, Object> properties = new HashMap<String, Object>();
 					Iterator<String> fieldNames = feature.get(head).fieldNames();
@@ -385,10 +383,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 					// 將設置日期加入屬性
 					properties.put("設置日期", setDate);
 
-					// 將type設定變壓器
-					properties.put("type", "變壓器");
-
-					var pe = new PointEntity(properties, (float) lon, (float) lan);
+					var pe = new PointEntity(properties, lon, lan);
 					GeoUtils.addPoint(fc, pe);
 				}
 			}
