@@ -35,6 +35,8 @@ export const useContentStore = defineStore("content", {
 		loading: false,
 		// Stores whether an error occurred
 		error: false,
+		// temp test
+		tempTest: undefined
 	}),
 	getters: {},
 	actions: {
@@ -322,5 +324,9 @@ export const useContentStore = defineStore("content", {
 				`成功從收藏移除（因爲是展示版，僅暫存）`
 			);
 		},
+		// set tempTest value
+		setTempTest(newValue) {
+			this.tempTest = newValue
+		}
 	},
 });

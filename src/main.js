@@ -34,6 +34,9 @@ import TimelineStackedChart from "./components/charts/TimelineStackedChart.vue";
 import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
+import MultipleYAxisChart from './components/charts/MultipleYAxisChart.vue'
+import DynamicDistrictChart from './components/charts/DynamicDistrictChart.vue'
+import VillageChart from './components/charts/VillageChart.vue'
 
 const app = createApp(App);
 
@@ -56,5 +59,8 @@ app.component("TimelineStackedChart", TimelineStackedChart);
 app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
+app.component("MultipleYAxisChart", MultipleYAxisChart);
+app.component("DynamicDistrictChart", DynamicDistrictChart);
+app.component("VillageChart", VillageChart);
 
 app.mount("#app");

@@ -11,4 +11,7 @@ export const chartTypes = {
 	GuageChart: "量表圖",
 	RadarChart: "雷達圖",
 	HeatmapChart: "熱力圖",
+	MultipleYAxisChart: "多縱軸圖",
+	DynamicDistrictChart: "動態行政區圖",
+	VillageChart: "村里圖"
 };

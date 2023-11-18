@@ -72,6 +72,12 @@
 				"106"
 			],
 			"icon": "public"
+		},
+		{
+			"name": "宜居臺北",
+			"index": "livable-taipei",
+			"components": ["200", "201", "202", "203"],
+			"icon": "real_estate_agent"
 		}
 	]
 }

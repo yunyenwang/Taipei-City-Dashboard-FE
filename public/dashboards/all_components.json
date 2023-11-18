@@ -4077,6 +4077,309 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"200": {
+			"id": 200,
+			"index": "test_xxx",
+			"map_config": [
+				{
+					"index": "garbage_truck",
+					"paint": {
+						"circle-color": [
+							"case",
+							["<=", ["get", "arrive_time"], 1700],
+							"#E6DF44",
+							["<=", ["get", "arrive_time"], 1900],
+							"#F4633C",
+							["<=", ["get", "arrive_time"], 2100],
+							"#D63940",
+							"#9C2A4B"
+						]
+					},
+					"property": [
+						{
+							"key": "dist",
+							"name": "行政區"
+						},
+						{
+							"key": "vil",
+							"name": "里名"
+						},
+						{
+							"key": "brigade",
+							"name": "清潔隊名稱"
+						},
+						{
+							"key": "license_plate",
+							"name": "車牌"
+						},
+						{
+							"key": "route",
+							"name": "路線"
+						},
+						{
+							"key": "arrive_time",
+							"name": "抵達時間"
+						},
+						{
+							"key": "leave_time",
+							"name": "離開時間"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						}
+					],
+					"title": "垃圾車收運點位",
+					"type": "circle",
+					"size": null,
+					"icon": null
+				}
+			],
+			"history_data": false,
+			"chart_config": {
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"types": ["ColumnChart", "DynamicDistrictChart"],
+				"color": ["#78c0e0", "#449DD1", "#192BC2", "#150578"],
+				"unit": "點",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			},
+			"name": "測試",
+			"source": "xx局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示XXOO。",
+			"long_desc": "顯示XXX資料，不定期更新。",
+			"use_case": "透過這，_____政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"201": {
+			"id": 201,
+			"index": "test_xxx",
+			"map_config": [
+				{
+					"index": "test_map",
+					"paint": {
+						"circle-color": [
+							"case",
+							["<=", ["get", "arrive_time"], 1700],
+							"#262340",
+							["<=", ["get", "arrive_time"], 1900],
+							"#4A5BA8",
+							["<=", ["get", "arrive_time"], 2100],
+							"#637CE0",
+							"#3751C3"
+						]
+					},
+					"property": [
+						{
+							"key": "dist",
+							"name": "行政區"
+						},
+						{
+							"key": "vil",
+							"name": "里名"
+						},
+						{
+							"key": "brigade",
+							"name": "清潔隊名稱"
+						},
+						{
+							"key": "license_plate",
+							"name": "車牌"
+						},
+						{
+							"key": "route",
+							"name": "路線"
+						},
+						{
+							"key": "arrive_time",
+							"name": "抵達時間"
+						},
+						{
+							"key": "leave_time",
+							"name": "離開時間"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						}
+					],
+					"title": "垃圾車收運點位",
+					"type": "circle",
+					"size": "big",
+					"icon": null
+				}
+			],
+			"history_data": false,
+			"chart_config": {
+				"categories": [
+					"木新里",
+					"指南里",
+					"政大里",
+					"木柵里",
+					"樟樹里",
+					"樟文里",
+					"明興里",
+					"明義里"
+				],
+				"types": ["VillageChart"],
+				"color": ["#797596"],
+				"unit": "點",
+				"map_filter": [
+					"vil",
+					[
+						"木新里",
+						"指南里",
+						"政大里",
+						"木柵里",
+						"樟樹里",
+						"樟文里",
+						"明興里",
+						"明義里"
+					]
+				]
+			},
+			"name": "村里圖",
+			"source": "xx局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示XXOO。",
+			"long_desc": "顯示XXX資料，不定期更新。",
+			"use_case": "透過這，_____政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"202": {
+			"id": 202,
+			"index": "test_multi_y",
+			"history_data": false,
+			"chart_config": {
+				"categories": [
+					2009,
+					2010, 
+					2011, 
+					2012, 
+					2013, 
+					2014, 
+					2015, 
+					2016
+				],
+				"types": ["MultipleYAxisChart"],
+				"color": ["#78c0e0", "#449DD1", "#192BC2", "#150578"],
+				"unit": "點"
+			},
+			"name": "測試多y軸",
+			"source": "xx局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示XXOO。",
+			"long_desc": "顯示XXX資料，不定期更新。",
+			"use_case": "透過這，_____政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"203": {
+			"id": 203,
+			"index": "stop_red_yellow_line",
+			"map_config": [
+				{
+					"index": "stop_red_yellow_line",
+					"paint": {
+						"line-color": [
+							"match",
+							["get", "PANWRP"],
+							["01"],
+							"#C1121F",
+							["02"],
+							"#FFB703",
+							["03"],
+							"#6A994E",
+							"#00B4D8"
+						]
+					},
+					"property": [
+						{
+							"key": "PANWRP",
+							"name": "劃設種類"
+						}
+					],
+					"title": "禁停紅黃線",
+					"type": "line",
+					"size": null,
+					"icon": null
+				}
+			],
+			"history_data": false,
+			"chart_config": {
+				"types": ["DonutChart"],
+				"color": ["#C1121F", "#FFB703", "#6A994E", "#00B4D8"],
+				"unit": "條",
+				"map_filter": [
+					"PANWRP",
+					[
+						"01",
+						"02",
+						"03",
+						"04"
+					]
+				]
+			},
+			"name": "禁停紅黃線",
+			"source": "xx局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示XXOO。",
+			"long_desc": "顯示XXX資料，不定期更新。",
+			"use_case": "透過這，_____政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }
