@@ -443,9 +443,169 @@ public class ExistedChargerCooker extends GeoCooker {
 			GeoUtils.addPoint(fc, pe);
 		}
 		
+		for (var f : lot.getFeatures()) {
+			String name = f.getProperty("name");
+			String district = f.getProperty("district");
+			String type = "停車場";
+			var p1 = ((Point) f.getGeometry()).getCoordinates();
+			
+			var installed = isNearBy(charger, p1);		
+			
+			var properties = new HashMap<String, Object>();
+			properties.put("name", name);
+			properties.put("district", district);
+			properties.put("type", type);
+			properties.put("installed", installed);
+			
+			var pe = new PointEntity(properties, p1.getLongitude(), p1.getLatitude());
+			
+			GeoUtils.addPoint(fc, pe);
+		}
+		
+		for (var f : market.getFeatures()) {
+			String name = f.getProperty("name");
+			String district = f.getProperty("district");
+			String type = "賣場";
+			var p1 = ((Point) f.getGeometry()).getCoordinates();
+			
+			var installed = isNearBy(charger, p1);		
+			
+			var properties = new HashMap<String, Object>();
+			properties.put("name", name);
+			properties.put("district", district);
+			properties.put("type", type);
+			properties.put("installed", installed);
+			
+			var pe = new PointEntity(properties, p1.getLongitude(), p1.getLatitude());
+			
+			GeoUtils.addPoint(fc, pe);
+		}
+		
+		
 		try (var fw = new FileWriter("data/公園停車場賣場安裝.geojson")) {
 			JsonUtils.toPrettyPrintJson(fw, fc);
 		}
 	}
 	
+	
+	/**
+	 * 積水 GeoJson
+	 * 
+	 * @throws Exception
+	 */
+	
+	@Test
+	void toPondingSummary() throws Exception {
+		var fc = loadFeatureCollection("data/積水.geojson");
+
+		var districts = Summary.districts();
+		
+		for (var f : fc.getFeatures()) {
+			var district = (String) f.getProperty("TOWN_NAME");
+			
+			districts.increase(district, 1);
+		}
+		
+		try (var fw = new FileWriter("data/積水彙整.json")) {
+			JsonUtils.toPrettyPrintJson(fw, districts);
+		}
+	}
+	
+	/**
+	 * 地震
+	 * 
+	 * @throws Exception
+	 */
+	
+	@Test
+	void toEarthQuack() throws Exception {
+		try (var fis = new FileInputStream("data/地震.csv")) {
+			var reader = new InputStreamReader(fis, "UTF-8");			
+			var parser = new CSVParser(reader, CSVFormat.EXCEL.builder().setHeader().build());
+			
+			var fc = GeoUtils.newFeatureCollection();
+			
+			for (var r : parser) {
+				var ssss = r.get(0);
+				
+				var district = String.format("%s區", StringUtils.trim(ssss.substring(0, 2)));
+				var name =  StringUtils.trim(ssss.substring(3));
+				var address = GeoUtils.toGeoAddress(name);
+				address = String.format("%s, %s, 臺北市", address, district);
+				
+				log.info("name: {}, district: {}, address: {}", name, district, address);
+				
+				findByAddress(address).ifPresent(me -> {
+					log.info("lon: {}, lat: {}", me.getLon(), me.getLat());
+					
+					var pe = new PointEntity(Map.of(
+							"name", name,
+							"district", district),
+							me.getLon(), me.getLat()
+							);
+					
+					GeoUtils.addPoint(fc, pe);
+				});
+				
+				Thread.sleep(1_000);				
+			}
+			
+			try (var fw = new FileWriter("data/地震.geojson")) {
+				JsonUtils.toPrettyPrintJson(fw, fc);
+			}
+		}
+	}
+
+	/**
+	 * 地震彙整
+	 * 
+	 * @throws Exception
+	 */
+	
+	@Test
+	void toEarthQuakeSummary() throws Exception {
+		var fc = loadFeatureCollection("data/地震.geojson");
+
+		var districts = Summary.districts();
+		
+		for (var f : fc.getFeatures()) {
+			var district = (String) f.getProperty("district");
+			
+			districts.increase(district, 1);
+		}
+		
+		try (var fw = new FileWriter("data/地震彙整.json")) {
+			JsonUtils.toPrettyPrintJson(fw, districts);
+		}
+	}
+
+	
+//	/**
+//	 * 電動汽車充電格 統計
+//	 * 
+//	 * @throws Exception
+//	 */	
+//	@Test
+//	void toExistedChargerSummary() throws Exception {
+//		try (var fis = new FileInputStream("data/電動汽車充電格.csv")) {
+//			var reader = new InputStreamReader(fis, "UTF-8");			
+//			var parser = new CSVParser(reader, CSVFormat.EXCEL.builder().setHeader().build());
+//			
+//			var districts = Summary.districts();
+//			
+//			for (var r : parser) {
+//				var ssss = r.get(0);
+//				
+//				var district = StringUtils.trim(ssss.substring(0, 3));
+//				var name =  StringUtils.trim(ssss.substring(3));				
+//				var address = r.get(1);
+//				address = GeoUtils.toGeoAddress(address);				
+//				address = String.format("%s, %s, 臺北市", address, district);
+//				
+//				districts.increase(district, 1);
+//			}
+//			
+//			System.out.println(JsonUtils.toPrettyPrintJson(districts));
+//		}
+//	}
 }
