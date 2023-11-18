@@ -4120,7 +4120,7 @@
 			"chart_config": {
 				"color": ["#A4303F"],
 				"types": ["BarChart"],
-				"unit": "件",
+				"unit": "樁",
 				"map_filter": [
 					"district",
 					[
@@ -4140,13 +4140,13 @@
 				]
 			},
 			"name": "既有充電樁",
-			"source": "既有充電樁",
+			"source": "交通局停管處",
 			"time_from": "2023-06-02T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": 1,
 			"update_freq_unit": "day",
 			"short_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計",
-			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為台北市停車管理工程處，不定期更新。",
+			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為臺北市停車管理工程處開放資料，不定期更新。",
 			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各行政區的統計，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": ["https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"],
 			"tags": [],
@@ -4176,7 +4176,7 @@
 							"name": "類別"
 						}
 					],
-					"title": "公園停車場以及賣場安裝充電樁",
+					"title": "充電樁安裝現況",
 					"type": "circle",
 					"size": null,
 					"icon": null
@@ -4187,19 +4187,21 @@
 				"categories": ["公園", "停車場", "賣場"],
 				"types": ["ColumnChart"],
 				"color": ["#E6DF44", "#F4633C", "#D63940"],
-				"unit": "座",
+				"unit": "樁",
 				"map_filter": ["type", ["公園", "停車場", "賣場"]]
 			},
-			"name": "公園停車場以及賣場安裝充電樁",
-			"source": "環保局",
+			"name": "充電樁安裝現況",
+			"source": "工務局、交通局停管處、產業局市場處",
 			"time_from": "2023-07-28T00:00:00+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示台北市所有垃圾車收運的點位。",
-			"long_desc": "顯示顯示台北市所有垃圾車收運的點位，資料來源為台北市環保局開放資料，不定期更新。",
-			"use_case": "透過這些點位資訊，我們可以更有效地安排垃圾車的收運路線，提升垃圾處理的效率，同時也能了解垃圾處理設施的分佈情況，並根據需求進行相應的環保政策調整。",
+			"short_desc": "顯示全市公園、停車場、賣場安裝充電樁之現況統計。",
+			"long_desc": "顯示全市公園、停車場、賣場安裝充電樁之現況統計，資料來源為台北市工務局、交通局停管處、產業局市場處開放資料，不定期更新。",
+			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各場域(公園、停車場、賣場)統計，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+				"https://data.taipei/dataset/detail?id=5b277432-f534-4d09-a24c-d3f6b514e042",
+				"https://data.taipei/dataset/detail?id=d5c0656b-5250-4179-a491-c94daa56ef2c",
+				"https://data.taipei/dataset/detail?id=3186cd22-9783-4ddc-bf79-66e3c65e5324"
 			],
 			"tags": [],
 			"contributors": ["chteng"]
