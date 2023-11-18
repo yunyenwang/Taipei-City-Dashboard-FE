@@ -4240,6 +4240,29 @@
 			"links": null,
 			"tags": [],
 			"contributors": ["chteng"]
-		}
+		},
+		"151": {
+			"id": 151,
+			"index": "growth_of_charge_station",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#FD5696"],
+				"types": ["AreaBrushChart"],
+				"unit": "格"
+			},
+			"name": "充電停車格成長",
+			"source": "交通局停管處",
+			"time_from": "2020-01-01T23:59:59+08:00",
+			"time_to": "2022-12-31T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "顯示從109年每年汽機車充電停車格統計資訊",
+			"long_desc": "顯示從109年起每年的汽機車充電停車格統計資訊，資料來源為台北市主計處開放資料，每年更新。",
+			"use_case": "藉由掌握台北市汽機車充電停車格的統計資訊，我們可以評估哪些地區有建置充電停車格的需求",
+			"links": null,
+			"tags": [],
+			"contributors": ["chteng"]
+		}		
 	}
 }
