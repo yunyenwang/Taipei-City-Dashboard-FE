@@ -1,0 +1,1320 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features" : [ {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20209建號（含共同使用部分及停車位編號117）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.533097, 25.0961034 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20219建號（含共同使用部分及停車位編號162）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5329968, 25.0960022 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20223建號（含共同使用部分及停車位編號150）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5329358, 25.0959654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20226建號（含共同使用部分及停車位編號145）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5329358, 25.0959654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20244建號（含共同使用部分及停車位編號135）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5328053, 25.0955699 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20275建號（含共同使用部分及停車位編號104）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.532909, 25.0951649 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20300建號（含共同使用部分及停車位編號72）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5330313, 25.0947322 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20307建號（含共同使用部分及停車位編號58）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5330433, 25.0946833 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20338建號（含共同使用部分及停車位編號75）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.422303, 24.9942829 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20342建號（含共同使用部分及停車位編號16）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20344建號（含共同使用部分及停車位編號27）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20345建號（含共同使用部分及停車位編號56）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333302, 25.0942583 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20347建號（含共同使用部分及停車位編號54）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20348建號（含共同使用部分及停車位編號38）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20350建號（含共同使用部分及停車位編號43）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20352建號（含共同使用部分及停車位編號44）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20356建號（含共同使用部分及停車位編號46）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20342建號（含共同使用部分及停車位編號16）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20345建號（含共同使用部分及停車位編號56）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333302, 25.0942583 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20348建號（含共同使用部分及停車位編號38）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333675, 25.0941165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2442建號（含共同使用部分及停車位編號32、84）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5696649, 25.0436525 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2443建號（含共同使用部分及停車位編號30）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2444建號（含共同使用部分及停車位編號31、148）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2445建號（含共同使用部分及停車位編號42、147）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2446建號（含共同使用部分及停車位編號41、136）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2447建號（含共同使用部分及停車位編號19、137）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2448建號（含共同使用部分及停車位編號24、134）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2449建號（含共同使用部分及停車位編號29、139）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2450建號（含共同使用部分及停車位編號20、135）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2451建號（含共同使用部分及停車位編號21、141）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2452建號（含共同使用部分及停車位編號22、140）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2453建號（含共同使用部分及停車位編號23、138）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2454建號（含共同使用部分及停車位編號25、196）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2455建號（含共同使用部分及停車位編號26、197）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2456建號（含共同使用部分及停車位編號28、195）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2457建號（含共同使用部分及停車位編號104、226）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2458建號（含共同使用部分及停車位編號127、194）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2459建號（含共同使用部分及停車位編號128、227）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2460建號（含共同使用部分及停車位編號129、228）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2461建號（含共同使用部分及停車位編號130、131）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2462建號（含共同使用部分及停車位編號132、133）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5698932, 25.0437065 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區永昌段六小段1341建號（含共同使用部分）",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5062198, 25.0308423 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2442建號（含共同使用部分及停車位編號32、84）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5696649, 25.0436525 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2443建號（含共同使用部分及停車位編號30）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2445建號（含共同使用部分及停車位編號42、147）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2447建號（含共同使用部分及停車位編號19、137）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2457建號（含共同使用部分及停車位編號104、226）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2459建號（含共同使用部分及停車位編號128、227）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 135.7556075, 35.021041 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 135.7556075, 35.021041 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "信義區雅祥段三小段2445建號（含共同使用部分及停車位編號42、147）",
+      "district" : "信義區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5700584, 25.0437035 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "松山區西松段二小段2344建號（含共同使用部分）",
+      "district" : "松山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5597935, 25.0490745 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20355建號（含共同使用部分及停車位編號30）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "松山區西松段二小段2344建號（含共同使用部分）",
+      "district" : "松山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5597935, 25.0490745 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5421建號（含共同使用部分及停車位編號80）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "萬華區萬大段二小段1743建號（含共同使用部分及停車位編號32、33）",
+      "district" : "萬華區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4982115, 25.0241876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20355建號（含共同使用部分及停車位編號30）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5514建號(含共同使用部分及停車位編號8、29、30)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5278795, 25.0557607 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5481建號(含共同使用部分及停車位編號5、6、7)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5279848, 25.0558645 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5464建號(含共同使用部分及停車位編號3、4)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5282589, 25.056196 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5421建號（含共同使用部分及停車位編號80）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "松山區西松段二小段2344建號（含共同使用部分）",
+      "district" : "松山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5597935, 25.0490745 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "萬華區萬大段二小段1743建號（含共同使用部分及停車位編號32、33）",
+      "district" : "萬華區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4982115, 25.0241876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5514建號(含共同使用部分及停車位編號8、29、30)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5278795, 25.0557607 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5481建號(含共同使用部分及停車位編號5、6、7)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5279848, 25.0558645 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5464建號(含共同使用部分及停車位編號3、4)",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5282589, 25.056196 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段四小段5423建號",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5281725, 25.0561027 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5421建號（含共同使用部分及停車位編號80）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "萬華區萬大段二小段1743建號（含共同使用部分及停車位編號32、33）",
+      "district" : "萬華區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4982115, 25.0241876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20340建號（含共同使用部分及停車位編號14）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "萬華區萬大段二小段1743建號（含共同使用部分及停車位編號32、33）",
+      "district" : "萬華區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4982115, 25.0241876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中山區吉林段三小段5422建號（含共同使用部分及停車位編號130）",
+      "district" : "中山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.527935, 25.0581654 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "士林區福林段二小段20339建號（含共同使用部分及停車位編號13）",
+      "district" : "士林區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366997, 25.0995244 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2105建號(含共同使用部分及停車位編號B2-143)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2105建號(含共同使用部分及停車位編號B2-143)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "新北市永和區國光段1、1081建號",
+      "district" : "永和區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.517197, 25.009715 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "新北市永和區大新段724、725建號",
+      "district" : "永和區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5152107, 25.007667 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2105建號(含共同使用部分及停車位編號B2-143)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "新北市永和區國光段1、1081建號",
+      "district" : "永和區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.517197, 25.009715 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "新北市永和區中興段17建號",
+      "district" : "永和區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5185875, 25.0116913 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區福和段二小段3448建號(含共同使用部分及停車位編號B4-S006)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5238616, 25.0187453 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區福和段二小段3449建號(含共同使用部分及停車位編號B4-L002)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5238616, 25.0187453 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區福和段二小段3450建號(含共同使用部分及停車位編號B4-S004)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5239536, 25.0185897 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區福和段二小段3448建號(含共同使用部分及停車位編號B4-S006)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5238616, 25.0187453 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區福和段二小段3449建號(含共同使用部分及停車位編號B4-L002)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5238616, 25.0187453 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2105建號(含共同使用部分及停車位編號B2-143)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2105建號(含共同使用部分及停車位編號B2-143)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "文山區公訓段二小段1425建號(含一席獨立產權停車位，建號1694，編號B3-106)",
+      "district" : "文山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5559859, 25.0020917 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "中正區河堤段2103建號(含共同使用部分及停車位編號B2-142)",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5247614, 25.0235343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "松山區西松段二小段2344建號",
+      "district" : "松山區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5597935, 25.0490745 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "臺北市中正區河堤段六小段2525建號(含一席獨立產權停車位，2603建號，編號B3-57)\n",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5185922, 25.0213737 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "臺北市中正區河堤段六小段2526建號(含一席獨立產權停車位，2603建號，編號B4-21)\n",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5185922, 25.0213737 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "臺北市中正區河堤段六小段2525建號(含一席獨立產權停車位，2603建號，編號B3-57)\n",
+      "district" : "中正區"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5185922, 25.0213737 ]
+    }
+  } ]
+}

@@ -24,8 +24,8 @@ public class OpenStreetMapApiTest {
 		OkHttpClient client = builder.build();
 
 		HttpUrl url = HttpUrl.parse(u).newBuilder()
-//				.addQueryParameter("q", "189號, 後港街, 士林區, 臺北市")
-				.addQueryParameter("q", "175號, 承德路4段")
+				.addQueryParameter("q", "11弄57號, 福林路100巷, 士林區, 臺北市")
+//				.addQueryParameter("q", "175號, 承德路4段")
 //				.addQueryParameter("q", "135 pilkington avenue, birmingham")
 //				.addQueryParameter("q", "國雲停車泊車趣(D1停車場), 信義路五段14巷, 景新里, 信義區, 三張犁, 臺北市, 11049, 臺灣")
 				.addQueryParameter("format", "json")

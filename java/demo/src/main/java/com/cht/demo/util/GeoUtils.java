@@ -50,7 +50,7 @@ public class GeoUtils {
 		
 		for (int i = chs.length - 1;i >= 0;i--) {
 			var ch = chs[i];
-			if ('段' == ch || '巷' == ch || '路' == ch || '街' == ch) {
+			if ('段' == ch || '巷' == ch || '路' == ch || '街' == ch|| '弄' == ch) {
 				var address1 = StringUtils.trim(address.substring(i + 1));
 				var x = address1.indexOf('號');
 				if (x > 0) {
