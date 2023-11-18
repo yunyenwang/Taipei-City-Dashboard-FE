@@ -4186,27 +4186,27 @@
 			],
 			"history_data": false,
 			"chart_config": {
-				"categories": ["公園", "停車場", "賣場"],
+				"categories": ["公園", "停車場", "超級市場"],
 				"types": ["ColumnChart"],
 				"color": ["#E6DF44", "#F4633C", "#D63940"],
 				"unit": "樁",
-				"map_filter": ["type", ["公園", "停車場", "賣場"]]
+				"map_filter": ["type", ["公園", "停車場", "超級市場"]]
 			},
 			"name": "充電樁安裝現況",
 			"source": "工務局、交通局停管處、產業局市場處",
 			"time_from": "2023-07-28T00:00:00+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示全市公園、停車場、賣場安裝充電樁之現況統計。",
-			"long_desc": "顯示全市公園、停車場、賣場安裝充電樁之現況統計，資料來源為台北市工務局、交通局停管處、產業局市場處開放資料，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各場域(公園、停車場、賣場)統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"short_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計。",
+			"long_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計，資料來源為台北市工務局、交通局停管處、產業局市場處開放資料，不定期更新。",
+			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各場域(公園、停車場、超級市場)統計，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=5b277432-f534-4d09-a24c-d3f6b514e042",
 				"https://data.taipei/dataset/detail?id=d5c0656b-5250-4179-a491-c94daa56ef2c",
 				"https://data.taipei/dataset/detail?id=3186cd22-9783-4ddc-bf79-66e3c65e5324"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		},
 		"150": {
 			"id": 150,
@@ -4228,18 +4228,18 @@
 				"unit": "筆"
 			},
 			"name": "閒置市有公有土地",
-			"source": "消防局",
+			"source": "財政局",
 			"history_data": false,
 			"time_from": "2023-05-01T00:00:00+08:00",
 			"time_to": "2023-05-29T14:50:55+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "閒置市有公有土地統計資訊",
-			"long_desc": "顯示緊急救護的上月統計資訊，資料來源為台北市消防局內部資料，每月更新。",
-			"use_case": "瞭解緊急救護服務案件的統計資訊，有助於優化救護服務的配置及應急措施。",
+			"short_desc": "顯示全市閒置市有公有土地數量統計。",
+			"long_desc": "顯示全市閒置市有公有土地數量統計，資料來源為台北市財政局開放資料，每6月更新。",
+			"use_case": "顯示全市閒置市有公有土地資訊提供充電樁建置規劃，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": null,
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		}
 	}
 }
