@@ -4077,6 +4077,58 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"148": {
+			"id": 148,
+			"index": "building_chargepoint",
+			"map_config": [
+				{
+					"index": "building_chargepoint",
+					"property": [
+						{
+							"key": "district",
+							"name": "行政區"
+						}
+					],
+					"type": "cluster",
+					"icon": "triangle_white",
+					"title": "既有充電樁"
+				}
+			],
+			"chart_config": {
+				"color": ["#2f9ca1"],
+				"types": ["BarChart"],
+				"unit": "件",
+				"map_filter": [
+					"district",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			},
+			"name": "既有充電樁",
+			"source": "既有充電樁",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "day",
+			"short_desc": "顯示全市在冊都市更新案件數量及類型統計",
+			"long_desc": "顯示全市在冊都市更新案件數量及類型統計，資料來源為台北都市發展局，不定期更新。",
+			"use_case": "圖表所呈現的內容僅限於社會住宅類型及案件統計，若需更詳細的資料或特定範圍的更新案件資訊，可透過地圖模式進行查詢。",
+			"links": ["https://gis.uro.taipei/r_progress.aspx"],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }

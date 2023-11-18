@@ -1,22 +1,22 @@
 <!-- Developed by Taipei Urban Intelligence Center 2023 -->
 
 <script setup>
-import { onMounted, ref } from 'vue';
-import { useMapStore } from '../../store/mapStore';
-import { useDialogStore } from '../../store/dialogStore';
-import { useContentStore } from '../../store/contentStore';
+import { onMounted, ref } from "vue";
+import { useMapStore } from "../../store/mapStore";
+import { useDialogStore } from "../../store/dialogStore";
+import { useContentStore } from "../../store/contentStore";
 
-import MobileLayers from '../dialogs/MobileLayers.vue';
+import MobileLayers from "../dialogs/MobileLayers.vue";
 
 const mapStore = useMapStore();
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 
-const newSavedLocation = ref('');
+const newSavedLocation = ref("");
 
 function handleSubmitNewLocation() {
 	mapStore.addNewSavedLocation(newSavedLocation.value);
-	newSavedLocation.value = '';
+	newSavedLocation.value = "";
 }
 
 onMounted(() => {
@@ -27,24 +27,57 @@ onMounted(() => {
 <template>
 	<div class="mapcontainer">
 		<div id="mapboxBox">
-			<div class="mapcontainer-loading" v-if="mapStore.loadingLayers.length > 0">
+			<div
+				class="mapcontainer-loading"
+				v-if="mapStore.loadingLayers.length > 0"
+			>
 				<div></div>
 			</div>
-			<button class="mapcontainer-layers show-if-mobile"
-				@click="dialogStore.showDialog('mobileLayers')"><span>layers</span></button>
+			<button
+				class="mapcontainer-layers show-if-mobile"
+				@click="dialogStore.showDialog('mobileLayers')"
+			>
+				<span>layers</span>
+			</button>
 			<!-- The key prop informs vue that the component should be updated when switching dashboards -->
 			<MobileLayers :key="contentStore.currentDashboard.index" />
 		</div>
 		<div class="mapcontainer-controls hide-if-mobile">
-			<button @click="mapStore.easeToLocation([[121.536609, 25.044808], 12.5, 0, 0])">返回預設</button>
-			<div v-for="(item, index) in mapStore.savedLocations" :key="`${item[4]}-${index}`">
-				<button @click="mapStore.easeToLocation(item)">{{ item[4] }}
+			<button
+				@click="
+					mapStore.easeToLocation([
+						[121.536609, 25.044808],
+						12.5,
+						0,
+						0,
+					])
+				"
+			>
+				返回預設
+			</button>
+			<div
+				v-for="(item, index) in mapStore.savedLocations"
+				:key="`${item[4]}-${index}`"
+			>
+				<button @click="mapStore.easeToLocation(item)">
+					{{ item[4] }}
 				</button>
-				<div class="mapcontainer-controls-delete" @click="mapStore.removeSavedLocation(index)"><span>delete</span>
+				<div
+					class="mapcontainer-controls-delete"
+					@click="mapStore.removeSavedLocation(index)"
+				>
+					<span>delete</span>
 				</div>
 			</div>
-			<input v-if="mapStore.savedLocations.length < 10" type="text" placeholder="新增後按Enter" v-model="newSavedLocation"
-				maxlength="6" @focusout="newSavedLocation = ''" @keypress.enter="handleSubmitNewLocation" />
+			<input
+				v-if="mapStore.savedLocations.length < 10"
+				type="text"
+				placeholder="新增後按Enter"
+				v-model="newSavedLocation"
+				maxlength="6"
+				@focusout="newSavedLocation = ''"
+				@keypress.enter="handleSubmitNewLocation"
+			/>
 		</div>
 	</div>
 </template>
@@ -66,7 +99,7 @@ onMounted(() => {
 		z-index: 20;
 
 		@media (max-width: 1000px) {
-			top: 145px
+			top: 145px;
 		}
 
 		div {
@@ -189,15 +222,15 @@ onMounted(() => {
 
 @keyframes colorfade {
 	0% {
-		color: var(--color-highlight)
+		color: var(--color-highlight);
 	}
 
 	75% {
-		color: var(--color-highlight)
+		color: var(--color-highlight);
 	}
 
 	100% {
-		color: var(--color-complement-text)
+		color: var(--color-complement-text);
 	}
 }
 
