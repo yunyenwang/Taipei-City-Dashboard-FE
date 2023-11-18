@@ -4086,23 +4086,23 @@
 					"index": "existed_charge_station",
 					"paint": {
 						"circle-color": [
-								"step",
-								["get", "point_count"],
-								"#A4303F",
-								5,
-								"#FFB7E6",
-								15,
-								"#F5D3ED"
-							],
-							"circle-radius": [
-								"step",
-								["get", "point_count"],
-								20,
-								5,
-								30,
-								15,
-								40
-							]
+							"step",
+							["get", "point_count"],
+							"#A4303F",
+							5,
+							"#FFB7E6",
+							15,
+							"#F5D3ED"
+						],
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							20,
+							5,
+							30,
+							15,
+							40
+						]
 					},
 					"property": [
 						{
@@ -4148,7 +4148,9 @@
 			"short_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計",
 			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為臺北市停車管理工程處開放資料，不定期更新。",
 			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各行政區的統計，若需更詳細的資料可透過地圖模式進行查詢。",
-			"links": ["https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"],
+			"links": [
+				"https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"
+			],
 			"tags": [],
 			"contributors": ["chteng"]
 		},
@@ -4204,7 +4206,40 @@
 				"https://data.taipei/dataset/detail?id=3186cd22-9783-4ddc-bf79-66e3c65e5324"
 			],
 			"tags": [],
-			"contributors": ["chteng"]
+			"contributors": ["tuic"]
+		},
+		"150": {
+			"id": 150,
+			"index": "land_unsued",
+			"map_config": [
+				{
+					"index": "building_unused_land",
+					"paint": {
+						"fill-color": "#d16ae2",
+						"fill-opacity": 0.7
+					},
+					"type": "fill",
+					"title": "閒置市有公有土地"
+				}
+			],
+			"chart_config": {
+				"color": ["#bc7262"],
+				"types": ["RadarChart", "DistrictChart", "ColumnChart"],
+				"unit": "筆"
+			},
+			"name": "閒置市有公有土地",
+			"source": "消防局",
+			"history_data": false,
+			"time_from": "2023-05-01T00:00:00+08:00",
+			"time_to": "2023-05-29T14:50:55+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "閒置市有公有土地統計資訊",
+			"long_desc": "顯示緊急救護的上月統計資訊，資料來源為台北市消防局內部資料，每月更新。",
+			"use_case": "瞭解緊急救護服務案件的統計資訊，有助於優化救護服務的配置及應急措施。",
+			"links": null,
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }
