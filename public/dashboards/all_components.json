@@ -4145,12 +4145,12 @@
 			"time_to": null,
 			"update_freq": 1,
 			"update_freq_unit": "day",
-			"short_desc": "顯示全市在冊都市更新案件數量及類型統計",
-			"long_desc": "顯示全市在冊都市更新案件數量及類型統計，資料來源為台北都市發展局，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於社會住宅類型及案件統計，若需更詳細的資料或特定範圍的更新案件資訊，可透過地圖模式進行查詢。",
-			"links": ["https://gis.uro.taipei/r_progress.aspx"],
+			"short_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計",
+			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為台北市停車管理工程處，不定期更新。",
+			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各行政區的統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"links": ["https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		},
 		"149": {
 			"id": 149,
@@ -4202,7 +4202,7 @@
 				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		}
 	}
 }

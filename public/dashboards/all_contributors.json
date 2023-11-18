@@ -4,6 +4,11 @@
 			"id": "tuic",
 			"name": "臺北大數據中心",
 			"link": "https://tuic.gov.taipei/zh"
+		},
+		"chteng": {
+			"id": "chteng",
+			"name": "中華能源探奇幫",
+			"link": "https://www.cht.com.tw/"
 		}
 	}
 }
