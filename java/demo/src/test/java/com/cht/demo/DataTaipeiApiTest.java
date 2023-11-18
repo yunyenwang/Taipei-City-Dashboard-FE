@@ -115,7 +115,7 @@ public class DataTaipeiApiTest {
 					}
 				}
 
-				var pe = new PointEntity(properties, (float) lon, (float) lan);
+				var pe = new PointEntity(properties, lon, lan);
 				GeoUtils.addPoint(fc, pe);
 			}
 

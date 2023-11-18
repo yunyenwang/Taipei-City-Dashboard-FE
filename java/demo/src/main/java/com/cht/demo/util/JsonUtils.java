@@ -111,6 +111,17 @@ public class JsonUtils {
 		}
 	}
 	
+	public static final void toPrettyPrintJson(Writer w, Object value) {
+		try {
+			JACKSON.writerWithDefaultPrettyPrinter().writeValue(w, value);
+			
+		} catch (Exception e) {
+			throw new ServiceException(e.getMessage(), e);
+		}
+	}
+	
+	
+	
 	@SuppressWarnings("unchecked")
 	public static final Map<String, Object> toMap(Object value) {
 		return JACKSON.convertValue(value, Map.class);

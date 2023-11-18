@@ -1,0 +1,340 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features" : [ {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "士林區",
+      "name" : "天母超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.532946, 25.123421 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "信義區",
+      "name" : "黎忠超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.558089, 25.020185 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "松山區",
+      "name" : "民生超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.55113, 25.057122 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "松山區",
+      "name" : "民有超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.546907, 25.0603659 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "信義區",
+      "name" : "六合超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5690193, 25.0244703 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "信義區",
+      "name" : "松興超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5674437, 25.0433546 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "信義區",
+      "name" : "三興超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.561168, 25.029062 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "松山區",
+      "name" : "鵬程超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.568808, 25.054639 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "內湖區",
+      "name" : "康樂超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.619221, 25.072607 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "內湖區",
+      "name" : "湖興超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.589995, 25.067663 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "南港區",
+      "name" : "東新超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.600061, 25.0545379 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "南港區",
+      "name" : "凌雲超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.614332, 25.0352419 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "大安區",
+      "name" : "民榮超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.535817, 25.035214 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "大安區",
+      "name" : "芳和超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5512857, 25.0216633 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "大安區",
+      "name" : "延吉超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.553981, 25.044179 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "中正區",
+      "name" : "華山超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.524429, 25.044349 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "中正區",
+      "name" : "同安超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.521452, 25.0233279 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "北投區",
+      "name" : "吉利超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.506708, 25.11869 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "北投區",
+      "name" : "清江超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.50735, 25.127735 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "中山區",
+      "name" : "江寧超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.539362, 25.061645 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "中山區",
+      "name" : "朱崙超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.540498, 25.047492 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "文山區",
+      "name" : "永安超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.568879, 24.984147 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "文山區",
+      "name" : "永建超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.550996, 24.987718 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "文山區",
+      "name" : "萬興超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.576456, 24.988499 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "文山區",
+      "name" : "萬和超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.536037, 25.000761 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "文山區",
+      "name" : "忠順超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.563096, 24.9846579 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "士林區",
+      "name" : "後港超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5194201, 25.0870481 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "士林區",
+      "name" : "文化超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.546143, 25.136332 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "萬華區",
+      "name" : "雙園超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5022176, 25.0322812 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "大安區",
+      "name" : "成功超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.545235, 25.025583 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "中正區",
+      "name" : "幸安超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.530821, 25.040575 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "內湖區",
+      "name" : "瑞光超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.57865, 25.07357 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "district" : "北投區",
+      "name" : "稻香超級市場"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.48941, 25.1412 ]
+    }
+  } ]
+}
