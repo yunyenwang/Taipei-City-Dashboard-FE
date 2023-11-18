@@ -46,6 +46,8 @@ dependencies {
 	
 	implementation 'org.geotools:gt-shapefile:30.0'
 	
+// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
+implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
 
 	implementation 'com.squareup.okhttp3:okhttp'
 

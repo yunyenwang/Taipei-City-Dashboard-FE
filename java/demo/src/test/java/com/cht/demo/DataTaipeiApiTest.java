@@ -20,7 +20,7 @@ public class DataTaipeiApiTest {
 
 	@Test
 	void get() throws Exception {
-		var u = "https://data.taipei/api/v1/dataset/e4c89f39-0ab3-4473-9bab-42a3d7e0def4?scope=resourceAquire&limit=1";
+		var u = "https://data.taipei/api/v1/dataset/82f3f379-b17c-41ff-aff2-1f3c0d16bb28?scope=resourceAquire";
 		OkHttpClient.Builder builder = new OkHttpClient.Builder().connectTimeout(5, TimeUnit.SECONDS).readTimeout(5,
 				TimeUnit.SECONDS);
 		OkHttpClient client = builder.build();
