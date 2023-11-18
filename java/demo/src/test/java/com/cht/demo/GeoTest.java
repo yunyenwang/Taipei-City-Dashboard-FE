@@ -43,8 +43,8 @@ public class GeoTest {
 	
 	@Test
 	void geojson() throws Exception {
-//		var is = GeoTest.class.getResourceAsStream("/dis_origin_center.geojson");
-		var is = GeoTest.class.getResourceAsStream("/dis_origin_radius.geojson");
+		var is = GeoTest.class.getResourceAsStream("/dis_origin_center.geojson");
+//		var is = GeoTest.class.getResourceAsStream("/dis_origin_radius.geojson");
 		var isr = new InputStreamReader(is);
 		
 		var fc = JsonUtils.fromJson(isr, FeatureCollection.class);

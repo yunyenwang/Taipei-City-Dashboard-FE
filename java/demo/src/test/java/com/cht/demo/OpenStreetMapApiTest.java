@@ -4,6 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.Test;
 
+import com.cht.demo.bean.MapEntity;
+import com.cht.demo.util.JsonUtils;
+
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
@@ -21,7 +24,8 @@ public class OpenStreetMapApiTest {
 		OkHttpClient client = builder.build();
 
 		HttpUrl url = HttpUrl.parse(u).newBuilder()
-				.addQueryParameter("q", "189號, 後港街, 士林區, 臺北市")
+//				.addQueryParameter("q", "189號, 後港街, 士林區, 臺北市")
+				.addQueryParameter("q", "175號, 承德路4段")
 //				.addQueryParameter("q", "135 pilkington avenue, birmingham")
 //				.addQueryParameter("q", "國雲停車泊車趣(D1停車場), 信義路五段14巷, 景新里, 信義區, 三張犁, 臺北市, 11049, 臺灣")
 				.addQueryParameter("format", "json")
@@ -32,7 +36,10 @@ public class OpenStreetMapApiTest {
 		Request request = new Request.Builder().url(url).get().build();
 		try (Response response = client.newCall(request).execute()) {
 			String responseBody = response.body().string();
-			log.info("{}", responseBody);
+			
+			log.info("{}", responseBody);			
+			
+			var me = JsonUtils.fromJson(responseBody, MapEntity[].class);			
 		}
 	}
 

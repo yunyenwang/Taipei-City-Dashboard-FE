@@ -1,26 +1,61 @@
 package com.cht.demo.util;
 
-import java.net.URL;
+import java.util.ArrayList;
+import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.geojson.Crs;
+import org.geojson.Feature;
+import org.geojson.FeatureCollection;
+import org.geojson.LngLatAlt;
+import org.geojson.Point;
+import org.geojson.jackson.CrsType;
+
+import com.cht.demo.bean.PointEntity;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class GeoUtils {
 
+	public static FeatureCollection newFeatureCollection() {
+		var fc = new FeatureCollection();
+		
+		var crs = new Crs();
+		crs.setType(CrsType.name);
+		crs.setProperties(Map.of("name", "urn:ogc:def:crs:OGC:1.3:CRS84"));				
+		fc.setCrs(crs);
+		
+		fc.setFeatures(new ArrayList<Feature>());
+		
+		return fc;
+	}
+	
+	public static FeatureCollection addPoint(FeatureCollection fc, PointEntity pe) {
+		var f = new Feature();
+		f.setProperties(pe.getProperties());
+		
+		var p = new Point();
+		p.setCoordinates(new LngLatAlt(pe.getLon(), pe.getLat()));					
+		
+		f.setGeometry(p);
+		
+		fc.getFeatures().add(f);
+		
+		return fc;
+	}
+	
+	
 	public static double degreesToRadians(double degrees) {
 		return degrees * (Math.PI / 180);
 	}
 	
-	public static double distance(double lat1, double lng1, double lat2, double lng2) {
+	public static double distance(double lat1, double lon1, double lat2, double lon2) {
 		lat1 = degreesToRadians(lat1);
-		lng1 = degreesToRadians(lng1);
+		lon1 = degreesToRadians(lon1);
 		lat2 = degreesToRadians(lat2);
-		lng2 = degreesToRadians(lng2);
+		lon2 = degreesToRadians(lon2);
 		
-		double x = (lng2 - lng1) * Math.cos((lat1 + lat2) / 2);
+		double x = (lon2 - lon1) * Math.cos((lat1 + lat2) / 2);
 		double y = (lat2 - lat1);
 		
 		return Math.sqrt((x * x) + (y * y)) * 6378137.0;
@@ -30,38 +65,38 @@ public class GeoUtils {
 	 * Calculate the distance between x to path.
 	 * 
 	 * @param lat1
-	 * @param lng1
+	 * @param lon1
 	 * @param lat2
-	 * @param lng2
+	 * @param lon2
 	 * 
-	 * @param range		the minimum distance between (lat1,lng1) to (lat2,lng2)
+	 * @param range		the minimum distance between (lat1,lon1) to (lat2,lon2)
 	 * 
 	 * @param latx
-	 * @param lngx
+	 * @param lonx
 	 * 
 	 * @return
 	 */
 	public static double distanceOfPath(
-			double lat1, double lng1,
-			double lat2, double lng2,
+			double lat1, double lon1,
+			double lat2, double lon2,
 			double range,
-			double latx, double lngx) {
+			double latx, double lonx) {
 		
-		double a = GeoUtils.distance(latx, lngx, lat1, lng1);
-		double b = GeoUtils.distance(latx, lngx, lat2, lng2);
-		double c = GeoUtils.distance(lat1, lng1, lat2, lng2);
+		double a = GeoUtils.distance(latx, lonx, lat1, lon1);
+		double b = GeoUtils.distance(latx, lonx, lat2, lon2);
+		double c = GeoUtils.distance(lat1, lon1, lat2, lon2);
 		
 		if (c < range) { // circle is too small
 			return Math.min(a, b); // EARLY RETURN
 		}
 		
-		// center of the circle (from lat1,lng1 to lat2,lng2)
+		// center of the circle (from lat1,lon1 to lat2,lon2)
 		double latp = (lat1 + lat2) / 2;
-		double lngp = (lng1 + lng2) / 2;		
+		double lonp = (lon1 + lon2) / 2;		
 		
 		double r = c / 2;
 		
-		double d = distance(latx, lngx, latp, lngp);
+		double d = distance(latx, lonx, latp, lonp);
 		
 		if (d > r) { // out of circle
 			return Math.min(a, b);
@@ -74,68 +109,4 @@ public class GeoUtils {
 		}
 	}
 	
-//	/**
-//	 * Read the address from Google.
-//	 * 
-//	 * @param lat
-//	 * @param lng
-//	 * @param lang
-//	 * @return
-//	 */
-//	public static String geocode(double lat, double lng, String lang) {
-//		try {
-//			URL url = new URL(String.format("http://10.12.2.90/cache/point?lat=%.9f&lng=%.9f&lang=%s", lat, lng, lang));
-//			String res = IOUtils.toString(url.openStream(), "UTF-8");
-//			int i = res.indexOf(',');
-//			if (i > 0) {
-//				String sc = res.substring(0, i);
-//				if ("200".equals(sc)) {
-//					i = res.indexOf(',', i + 1);
-//					if (i > 0) {
-//						return res.substring(i + 1).replace("\"", "");
-//					}					
-//				}
-//				
-//				return String.format("No Address(%s)", sc);				
-//			}
-//			
-//		} catch (Exception e) {
-//			LOG.error("Failed to query the GEO address", e);
-//		}		
-//		
-//		return "No Address (Server Error)";
-//	}
-	
-	/**
-	 * Read the address from Beleb.
-	 * 
-	 * @param deviceId - serial number of the GPS tracker
-	 * @param lat
-	 * @param lng
-	 * @param lang - 'th' or 'en'
-	 * @return
-	 */
-//	public static String geocode(String deviceId, double lat, double lng, String lang) {
-//		try {
-//			URL url = new URL(String.format("http://10.12.2.90/cache2/point?device_id=%s&lat=%.9f&lng=%.9f&lang=%s", deviceId, lat, lng, lang));
-//			String res = IOUtils.toString(url.openStream(), "UTF-8");
-//			int i = res.indexOf(',');
-//			if (i > 0) {
-//				String sc = res.substring(0, i);
-//				if ("200".equals(sc)) {
-//					i = res.indexOf(',', i + 1);
-//					if (i > 0) {
-//						return res.substring(i + 1).replace("\"", "");
-//					}					
-//				}
-//				
-//				return String.format("No Address(%s)", sc);				
-//			}
-//			
-//		} catch (Exception e) {
-//			LOG.error("Failed to query the GEO address", e);
-//		}		
-//		
-//		return "No Address (Server Error)";
-//	}
 }
