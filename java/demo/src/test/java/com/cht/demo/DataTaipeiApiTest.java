@@ -2,13 +2,11 @@ package com.cht.demo;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import org.geojson.FeatureCollection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.locationtech.proj4j.CRSFactory;
@@ -18,11 +16,9 @@ import org.locationtech.proj4j.ProjCoordinate;
 
 import com.cht.demo.bean.PointEntity;
 import com.cht.demo.util.GeoUtils;
-import com.cht.demo.util.JsonUtils;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 import lombok.extern.slf4j.Slf4j;
@@ -79,7 +75,7 @@ public class DataTaipeiApiTest {
 	void XMLToGeojson() throws Exception {
 
 		try {
-			var file = "data/配電系統及其他設施.xml";
+			var file = "data/配電站.xml";
 			String name = file.substring(0, file.lastIndexOf("."));
 
 			File xmlFile = new File(file);
@@ -89,12 +85,13 @@ public class DataTaipeiApiTest {
 
 			// 提取featureMember的數據
 			JsonNode features = jsonNode.get("featureMember");
+			var head = "UTL_場站";
 
 			var fc = GeoUtils.newFeatureCollection();
 			// 遍歷featureMember
 			for (JsonNode feature : features) {
 				// 提取座標數據
-				String coordinates = feature.get("UTL_其他設施").get("geometry").get("Point").get("coordinates").asText();
+				String coordinates = feature.get(head).get("geometry").get("Point").get("coordinates").asText();
 				String[] coordinateArray = coordinates.split(" ");
 				double longitude = Double.parseDouble(coordinateArray[0]);
 				double latitude = Double.parseDouble(coordinateArray[1]);
@@ -106,11 +103,11 @@ public class DataTaipeiApiTest {
 //				log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
 
 				Map<String, Object> properties = new HashMap<String, Object>();
-				Iterator<String> fieldNames = feature.get("UTL_其他設施").fieldNames();
+				Iterator<String> fieldNames = feature.get(head).fieldNames();
 				while (fieldNames.hasNext()) {
 					String fieldName = fieldNames.next();
 					if (!fieldName.equals("geometry")) {
-						JsonNode fieldValue = feature.get("UTL_其他設施").get(fieldName);
+						JsonNode fieldValue = feature.get(head).get(fieldName);
 						properties.put(fieldName, fieldValue.asText());
 					}
 				}
