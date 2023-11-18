@@ -6,7 +6,15 @@ import lombok.Data;
 public class MapEntity {
 
 	Float lat;
-	Float lon;	
+	Float lon;
+	String display_name;
+	Address address;
+
+	@Data
+	public static class Address {
+		public String suburb;
+
+	}
 }
 
 /*
