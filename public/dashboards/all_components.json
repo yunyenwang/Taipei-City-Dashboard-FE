@@ -4080,23 +4080,45 @@
 		},
 		"148": {
 			"id": 148,
-			"index": "building_chargepoint",
+			"index": "existed_charge_station",
 			"map_config": [
 				{
-					"index": "building_chargepoint",
+					"index": "existed_charge_station",
+					"paint": {
+						"circle-color": [
+								"step",
+								["get", "point_count"],
+								"#A4303F",
+								5,
+								"#FFB7E6",
+								15,
+								"#F5D3ED"
+							],
+							"circle-radius": [
+								"step",
+								["get", "point_count"],
+								20,
+								5,
+								30,
+								15,
+								40
+							]
+					},
 					"property": [
 						{
 							"key": "district",
 							"name": "行政區"
 						}
 					],
-					"type": "cluster",
+					"cluster": true,
+					"cluster_unclustered_point_color": "#870058",
+					"type": "circle",
 					"icon": "triangle_white",
 					"title": "既有充電樁"
 				}
 			],
 			"chart_config": {
-				"color": ["#2f9ca1"],
+				"color": ["#A4303F"],
 				"types": ["BarChart"],
 				"unit": "件",
 				"map_filter": [

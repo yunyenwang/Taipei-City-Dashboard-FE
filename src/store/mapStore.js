@@ -172,10 +172,18 @@ export const useMapStore = defineStore("map", {
 		},
 		// 3. Add the layer data as a source in mapbox
 		addMapLayerSource(map_config, data) {
-			this.map.addSource(`${map_config.layerId}-source`, {
+			let object = {
 				type: "geojson",
 				data: { ...data },
-			});
+			}
+			// if it has cluster
+			if (map_config.cluster) {
+				object.cluster = true
+				object.clusterMaxZoom = 14
+				object.clusterRadius = 50
+			}
+
+			this.map.addSource(`${map_config.layerId}-source`, object);
 			if (map_config.type === "arc") {
 				this.AddArcMapLayer(map_config, data);
 			} else {
@@ -228,6 +236,34 @@ export const useMapStore = defineStore("map", {
 				},
 				source: `${map_config.layerId}-source`,
 			});
+			
+			// if it has cluster
+			if (map_config.cluster) {
+				this.map.addLayer({
+					id: 'cluster-count',
+					type: 'symbol',
+					source: `${map_config.layerId}-source`,
+					filter: ['has', 'point_count'],
+					layout: {
+						'text-field': ['get', 'point_count_abbreviated'],
+						'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+						'text-size': 12
+					}
+				});
+					 
+				this.map.addLayer({
+					id: 'unclustered-point',
+					type: 'circle',
+					source: `${map_config.layerId}-source`,
+					filter: ['!', ['has', 'point_count']],
+					paint: {
+						'circle-color': `${map_config.cluster_unclustered_point_color}`,
+						'circle-radius': 4,
+						'circle-stroke-width': 1,
+						'circle-stroke-color': '#fff'
+					}
+				});
+			}
 			this.currentLayers.push(map_config.layerId);
 			this.mapConfigs[map_config.layerId] = map_config;
 			this.currentVisibleLayers.push(map_config.layerId);
