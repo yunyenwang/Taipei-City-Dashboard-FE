@@ -4147,7 +4147,7 @@
 			"update_freq_unit": "day",
 			"short_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計",
 			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為臺北市停車管理工程處開放資料，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各行政區的統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"use_case": "統計台北市各行政區的停車場充電樁安裝數量，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"
 			],
@@ -4199,7 +4199,7 @@
 			"update_freq_unit": null,
 			"short_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計。",
 			"long_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計，資料來源為台北市工務局、交通局停管處、產業局市場處開放資料，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各場域(公園、停車場、超級市場)統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"use_case": "統計台北市各場域充電樁安裝數量之現況統計(公園、停車場、超級市場)，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=5b277432-f534-4d09-a24c-d3f6b514e042",
 				"https://data.taipei/dataset/detail?id=d5c0656b-5250-4179-a491-c94daa56ef2c",
@@ -4213,21 +4213,32 @@
 			"index": "land_unsued",
 			"map_config": [
 				{
-					"index": "building_unused_land",
+					"index": "land_unsued",
+					"property": [
+						{
+							"key": "name",
+							"name": "地號"
+						},
+						{
+							"key": "district",
+							"name": "行政區"
+						}
+					],
 					"paint": {
-						"fill-color": "#d16ae2",
-						"fill-opacity": 0.7
+						"circle-color": "#3f51b5"
 					},
-					"type": "fill",
-					"title": "閒置市有公有土地"
+					"type": "circle",
+					"size": "small",
+					"icon": "null",
+					"title": "非公用閒置土地"
 				}
 			],
 			"chart_config": {
 				"color": ["#bc7262"],
-				"types": ["RadarChart", "DistrictChart", "ColumnChart"],
+				"types": ["DistrictChart", "RadarChart", "ColumnChart"],
 				"unit": "筆"
 			},
-			"name": "閒置市有公有土地",
+			"name": "非公用閒置土地",
 			"source": "財政局",
 			"history_data": false,
 			"time_from": "2023-05-01T00:00:00+08:00",
@@ -4237,32 +4248,173 @@
 			"short_desc": "顯示全市閒置市有公有土地數量統計。",
 			"long_desc": "顯示全市閒置市有公有土地數量統計，資料來源為台北市財政局開放資料，每6月更新。",
 			"use_case": "顯示全市閒置市有公有土地資訊提供充電樁建置規劃，若需更詳細的資料可透過地圖模式進行查詢。",
-			"links": null,
+			"links": [
+				"https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=1c9d765f-69e4-4c79-9645-42cbfb92f418"
+			],
 			"tags": [],
 			"contributors": ["chteng"]
 		},
 		"151": {
 			"id": 151,
-			"index": "growth_of_charge_station",
+			"index": "substation",
+			"map_config": [
+				{
+					"index": "substation",
+					"paint": {
+						"circle-color": [
+							"step",
+							["get", "point_count"],
+							"#A4303F",
+							5,
+							"#FFB7E6",
+							15,
+							"#F5D3ED"
+						],
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							20,
+							5,
+							30,
+							15,
+							40
+						]
+					},
+					"property": [
+						{
+							"key": "district",
+							"name": "行政區"
+						}
+					],
+					"title": "配電站分佈",
+					"type": "circle",
+					"size": null,
+					"icon": null,
+					"cluster": true,
+					"cluster_unclustered_point_color": "#870058"
+				}
+			],
 			"history_data": false,
-			"map_config": null,
 			"chart_config": {
-				"color": ["#FD5696"],
-				"types": ["AreaBrushChart"],
-				"unit": "格"
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"types": ["RadarChart", "ColumnChart"],
+				"color": ["#9C2A4B"],
+				"unit": "座",
+				"map_filter": [
+					"district",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
 			},
-			"name": "充電停車格成長",
-			"source": "交通局停管處",
-			"time_from": "2020-01-01T23:59:59+08:00",
-			"time_to": "2022-12-31T23:59:59+08:00",
-			"update_freq": 1,
-			"update_freq_unit": "year",
-			"short_desc": "顯示從109年每年汽機車充電停車格統計資訊",
-			"long_desc": "顯示從109年起每年的汽機車充電停車格統計資訊，資料來源為台北市主計處開放資料，每年更新。",
-			"use_case": "藉由掌握台北市汽機車充電停車格的統計資訊，我們可以評估哪些地區有建置充電停車格的需求",
-			"links": null,
+			"name": "配電站分佈",
+			"source": "環保局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示台北市所有垃圾車收運的點位。",
+			"long_desc": "顯示顯示台北市所有垃圾車收運的點位，資料來源為台北市環保局開放資料，不定期更新。",
+			"use_case": "透過這些點位資訊，我們可以更有效地安排垃圾車的收運路線，提升垃圾處理的效率，同時也能了解垃圾處理設施的分佈情況，並根據需求進行相應的環保政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
 			"tags": [],
-			"contributors": ["chteng"]
-		}		
+			"contributors": ["tuic"]
+		},
+		"152": {
+			"id": 152,
+			"index": "transformer",
+			"map_config": [
+				{
+					"index": "transformer",
+					"property": [
+						{
+							"key": "dist",
+							"name": "行政區"
+						}
+					],
+					"paint": {
+						"circle-color": "#D63940"
+					},
+					"type": "circle",
+					"icon": "null",
+					"title": "變壓器分佈"
+				}
+			],
+			"history_data": false,
+			"chart_config": {
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"types": ["RadarChart", "ColumnChart"],
+				"color": ["#D63940"],
+				"unit": "座",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			},
+			"name": "變壓器分佈",
+			"source": "環保局",
+			"time_from": "2023-07-28T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示台北市所有垃圾車收運的點位。",
+			"long_desc": "顯示顯示台北市所有垃圾車收運的點位，資料來源為台北市環保局開放資料，不定期更新。",
+			"use_case": "透過這些點位資訊，我們可以更有效地安排垃圾車的收運路線，提升垃圾處理的效率，同時也能了解垃圾處理設施的分佈情況，並根據需求進行相應的環保政策調整。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}
 	}
 }
