@@ -4374,11 +4374,8 @@
 							"name": "行政區"
 						}
 					],
-					"paint": {
-						"circle-color": "#D63940"
-					},
-					"type": "circle",
-					"icon": "null",
+					"type": "symbol",
+					"icon": "triangle_green",
 					"title": "變壓器分佈"
 				}
 			],
