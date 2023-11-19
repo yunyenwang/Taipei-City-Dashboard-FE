@@ -180,12 +180,12 @@ export const useMapStore = defineStore("map", {
 			let object = {
 				type: "geojson",
 				data: { ...data },
-			}
+			};
 			// if it has cluster
 			if (map_config.cluster) {
-				object.cluster = true
-				object.clusterMaxZoom = 14
-				object.clusterRadius = 50
+				object.cluster = true;
+				object.clusterMaxZoom = 14;
+				object.clusterRadius = 50;
 			}
 
 			this.map.addSource(`${map_config.layerId}-source`, object);
@@ -241,32 +241,35 @@ export const useMapStore = defineStore("map", {
 				},
 				source: `${map_config.layerId}-source`,
 			});
-			
+
 			// if it has cluster
 			if (map_config.cluster) {
 				this.map.addLayer({
-					id: 'cluster-count',
-					type: 'symbol',
+					id: "cluster-count",
+					type: "symbol",
 					source: `${map_config.layerId}-source`,
-					filter: ['has', 'point_count'],
+					filter: ["has", "point_count"],
 					layout: {
-						'text-field': ['get', 'point_count_abbreviated'],
-						'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-						'text-size': 12
-					}
+						"text-field": ["get", "point_count_abbreviated"],
+						"text-font": [
+							"DIN Offc Pro Medium",
+							"Arial Unicode MS Bold",
+						],
+						"text-size": 12,
+					},
 				});
-					 
+
 				this.map.addLayer({
-					id: 'unclustered-point',
-					type: 'circle',
+					id: "unclustered-point",
+					type: "circle",
 					source: `${map_config.layerId}-source`,
-					filter: ['!', ['has', 'point_count']],
+					filter: ["!", ["has", "point_count"]],
 					paint: {
-						'circle-color': `${map_config.cluster_unclustered_point_color}`,
-						'circle-radius': 4,
-						'circle-stroke-width': 1,
-						'circle-stroke-color': '#fff'
-					}
+						"circle-color": `${map_config.cluster_unclustered_point_color}`,
+						"circle-radius": 4,
+						"circle-stroke-width": 1,
+						// 'circle-stroke-color': '#fff'
+					},
 				});
 
 			}

@@ -74,9 +74,9 @@
 			"icon": "public"
 		},
 		{
-			"name": "韌性城市",
+			"name": "韌性城市 - 充電樁部署計畫",
 			"index": "livable-taipei",
-			"components": ["148", "149", "150", "151", "152", "171", "160"],
+			"components": ["171", "148", "149", "150", "151", "152", "160"],
 			"icon": "real_estate_agent"
 		}
 	]
