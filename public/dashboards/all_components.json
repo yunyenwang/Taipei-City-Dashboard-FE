@@ -4213,22 +4213,33 @@
 			"index": "land_unsued",
 			"map_config": [
 				{
-					"index": "building_unused_land",
+					"index": "land_unsued",
+					"property": [
+						{
+							"key": "name",
+							"name": "地號"
+						},
+						{
+							"key": "district",
+							"name": "行政區"
+						}
+					],
 					"paint": {
-						"fill-color": "#d16ae2",
-						"fill-opacity": 0.7
+						"circle-color": "#3f51b5"
 					},
-					"type": "fill",
-					"title": "閒置市有公有土地"
+					"type": "circle",
+					"size": "small",
+					"icon": "null",
+					"title": "非公用閒置土地"
 				}
 			],
 			"chart_config": {
 				"color": ["#bc7262"],
-				"types": ["RadarChart", "DistrictChart", "ColumnChart"],
+				"types": ["DistrictChart", "RadarChart", "ColumnChart"],
 				"unit": "筆"
 			},
-			"name": "閒置市有公有土地",
-			"source": "財政局",
+			"name": "非公用閒置土地",
+			"source": "消防局",
 			"history_data": false,
 			"time_from": "2023-05-01T00:00:00+08:00",
 			"time_to": "2023-05-29T14:50:55+08:00",
