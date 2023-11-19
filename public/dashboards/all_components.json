@@ -4452,6 +4452,82 @@
 			"links": null,
 			"tags": [],
 			"contributors": ["chteng"]
+		},
+		"160": {
+			"id": 160,
+			"index": "flood_history",
+			"map_config": [
+				{
+					"index": "flood_history_range",
+					"property": [
+						{
+							"key": "TOWN_NAME",
+							"name": "行政區"
+						}
+					],
+					"paint": {
+						"fill-color": "#6FA6E6",
+						"fill-opacity": 0.7
+					},
+					"type": "fill",
+					"size": null,
+					"icon": null,
+					"title": "歷史積水次數統計"
+				},
+				{
+					"index": "earthquake_building",
+					"property": [
+						{
+							"key": "district",
+							"name": "行政區"
+						},
+						{
+							"key": "name",
+							"name": "地址"
+						}
+					],
+					"type": "symbol",
+					"icon": "triangle_white",
+					"title": "地震危樓"
+				}
+			],
+			"history_data": true,
+			"chart_config": {
+				"color": ["#6FA6E6"],
+				"types": ["DistrictChart"],
+				"unit": "次",
+				"map_filter": [
+					"TOWN_NAME",
+					[
+						"北投",
+						"士林",
+						"內湖",
+						"南港",
+						"松山",
+						"信義",
+						"中山",
+						"大同",
+						"中正",
+						"萬華",
+						"大安",
+						"文山"
+					]
+				]
+			},
+			"name": "歷史積水次數統計",
+			"source": "工務局",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 10,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示當前全市道路施工的數量統計",
+			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
+			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }

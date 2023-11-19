@@ -145,6 +145,11 @@ export const useMapStore = defineStore("map", {
 				) {
 					this.loadingLayers.push("rendering");
 					this.turnOnMapLayerVisibility(mapLayerId);
+
+					if (map_config.cluster) {
+						this.turnOnClusterMapLayerVisibility();
+					}
+					
 					if (
 						!this.currentVisibleLayers.find(
 							(element) => element === mapLayerId
@@ -263,6 +268,7 @@ export const useMapStore = defineStore("map", {
 						'circle-stroke-color': '#fff'
 					}
 				});
+
 			}
 			this.currentLayers.push(map_config.layerId);
 			this.mapConfigs[map_config.layerId] = map_config;
@@ -367,6 +373,11 @@ export const useMapStore = defineStore("map", {
 		turnOnMapLayerVisibility(mapLayerId) {
 			this.map.setLayoutProperty(mapLayerId, "visibility", "visible");
 		},
+		// 5-1 Turn on the visibility for cluster maps
+		turnOnClusterMapLayerVisibility() {
+			this.map.setLayoutProperty("cluster-count", "visibility", "visible");
+			this.map.setLayoutProperty("unclustered-point", "visibility", "visible");
+		},
 		// 6. Turn off the visibility of an exisiting map layer but don't remove it completely
 		turnOffMapLayerVisibility(map_config) {
 			map_config.forEach((element) => {
@@ -379,6 +390,22 @@ export const useMapStore = defineStore("map", {
 					this.map.setFilter(mapLayerId, null);
 					this.map.setLayoutProperty(
 						mapLayerId,
+						"visibility",
+						"none"
+					);
+				}
+				if (this.map.getLayer("cluster-count")) {
+					this.map.setFilter(mapLayerId, null);
+					this.map.setLayoutProperty(
+						"cluster-count",
+						"visibility",
+						"none"
+					);
+				}
+				if (this.map.getLayer("unclustered-point")) {
+					this.map.setFilter(mapLayerId, null);
+					this.map.setLayoutProperty(
+						"unclustered-point",
 						"visibility",
 						"none"
 					);
