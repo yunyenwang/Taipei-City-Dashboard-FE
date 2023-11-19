@@ -4117,7 +4117,7 @@
 					"title": "既有充電樁"
 				},
 				{
-					"index": "chargepoint_area",
+					"index": "existed_charge_station",
 					"paint": {
 						"fill-color": "#EEB2A5",
 						"fill-opacity": 0.2
