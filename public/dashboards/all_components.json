@@ -4245,7 +4245,7 @@
 						"circle-color": "#3f51b5"
 					},
 					"type": "circle",
-					"size": "small",
+					"size": null,
 					"icon": "null",
 					"title": "非公用閒置土地"
 				}
