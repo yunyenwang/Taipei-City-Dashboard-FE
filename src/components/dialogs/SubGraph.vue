@@ -8,7 +8,11 @@ import { ref, watch } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import axios from "axios";
 import DialogContainer from "./DialogContainer.vue";
+import { useContentStore } from '../../store/contentStore';
 const { BASE_URL } = import.meta.env;
+
+
+const contentStore = useContentStore();
 
 const props = defineProps(['district']);
 const selectedDistrict = ref(props.district);
@@ -24,6 +28,7 @@ var series = ref([
 ]);
 
 function handleClose() {
+	series.value = []
 	dialogStore.hideAllDialogs();
 }
 watch(dialogStore.dialogs.subGraph, async (newValue) => {
@@ -32,10 +37,10 @@ watch(dialogStore.dialogs.subGraph, async (newValue) => {
 	}
 })
 watch(props, async (newValue) => {
-	console.log('selectedDistrict', newValue)
+	// console.log('selectedDistrict', newValue)
 	getData()
 	// console.log('series', series.value)
-}, { deep: true });
+});
 
 async function getData() {
 	await axios
@@ -75,14 +80,14 @@ const chartOptions = ref({
 		enabled: false,
 	},
 	fill: {
-		opacity: [0.24, 0.24, 1, 1]
+		opacity: [1, 0.5]
 	},
 	forecastDataPoints: {
 		count: 2
 	},
 	stroke: {
 		curve: "straight",
-		width: [0, 2]
+		width: [2, 0]
 	},
 	title: {
 		text: "歷年積水深度",
@@ -119,7 +124,8 @@ const chartOptions = ref({
 </script>
 
 <template>
-	<DialogContainer :dialog="`subGraph`" @onClose="handleClose">
+	<!-- v-if="contentStore.currentDashboard.mode !== '/mapview'"  -->
+	<DialogContainer v-if="contentStore.currentDashboard.mode !== '/mapview'" :dialog="`subGraph`" @onClose="handleClose">
 		
 		<h2>{{ props.district }}</h2>
 		<div id="chart">
