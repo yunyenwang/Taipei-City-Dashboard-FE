@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -293,6 +294,60 @@ public class IdleLandApiTest extends GeoCooker {
 	            e.printStackTrace();
 	        }
 	}
+	
+	/**
+	 * 閒置土地
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	void toTempleGeoJson() throws Exception {
+
+		try {
+			var file = "data/temple.csv";
+			String fileName = file.substring(0, file.lastIndexOf("."));
+			var fc = GeoUtils.newFeatureCollection();
+			try (CSVReader reader = new CSVReader(new FileReader(file, Charset.forName("Big5")))) {
+				String[] nextLine;
+				List<String> buildingAddresses = new ArrayList<>();
+				boolean firstLine = true;
+				while ((nextLine = reader.readNext()) != null) {
+					if (firstLine) {
+						firstLine = false;
+						continue;
+					}
+//					String buildingAddress = nextLine[3];
+					String name = nextLine[1];
+					var district = nextLine[2];
+					var address = nextLine[3];
+					address = GeoUtils.toGeoAddress(address);
+					address = String.format("%s, %s, 臺北市", address, district);
+					log.info("name: {}, district: {}, address: {}", name, district, address);
+
+					findByAddress(address).ifPresent(me -> {
+						log.info("lon: {}, lat: {}", me.getLon(), me.getLat());
+
+						var pe = new PointEntity(Map.of("name", name, "district", district), me.getLon(), me.getLat());
+
+						GeoUtils.addPoint(fc, pe);
+					});
+				}
+
+				// 將GeoJSON寫入文件
+				ObjectMapper objectMapper = new ObjectMapper();
+				objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+				objectMapper.writeValue(new File(String.format("%s.geojson", fileName)), fc);
+
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+	
+	
 	
 	FeatureCollection loadFeatureCollection(String filename) throws IOException {
 		try (var fis = new FileInputStream(filename)) {

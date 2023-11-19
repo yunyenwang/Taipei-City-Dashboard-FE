@@ -347,23 +347,23 @@ public class ExistedChargerCooker extends GeoCooker {
 		for (var t : target.getFeatures()) {
 			var p1 = ((Point) t.getGeometry()).getCoordinates();
 			
-			if (isNearBy(charger, p1)) {
-				count.incrementAndGet();
-				break;
-			}
-			
-//			for (var c : charger.getFeatures()) {				
-//				var p2 = ((Point) c.getGeometry()).getCoordinates();
-//				
-//				var distance = GeoUtils.distance(						
-//						p1.getLatitude(), p1.getLongitude(),
-//						p2.getLatitude(), p2.getLongitude());
-//				
-//				if (distance < 500) {
-//					count.incrementAndGet();
-//					break;
-//				}
+//			if (isNearBy(charger, p1)) {
+//				count.incrementAndGet();
+//				break;
 //			}
+			
+			for (var c : charger.getFeatures()) {				
+				var p2 = ((Point) c.getGeometry()).getCoordinates();
+				
+				var distance = GeoUtils.distance(						
+						p1.getLatitude(), p1.getLongitude(),
+						p2.getLatitude(), p2.getLongitude());
+				
+				if (distance < 500) {
+					count.incrementAndGet();
+					break;
+				}
+			}
 		}		
 		
 		return count.intValue();
@@ -376,15 +376,20 @@ public class ExistedChargerCooker extends GeoCooker {
 		var park = loadFeatureCollection("data/公園.geojson");
 		var lot = loadFeatureCollection("data/停車場.geojson");
 		var market = loadFeatureCollection("data/超級市場.geojson");
+		var temple = loadFeatureCollection("data/temple.geojson");
 		
 		int parkInstalled = countNearBy(charger, park);		
 		int lotInstalled = countNearBy(charger, lot);		
 		int marketInstalled = countNearBy(charger, market);
+		int templeInstalled = countNearBy(charger, temple);
 		
 		var s = new Stack();
 		
 		var installed = new Stack.StackData();
 		var notyet = new Stack.StackData();
+		
+		installed.setName("已安裝");
+		notyet.setName("未安裝");
 		
 		s.getData().add(installed);
 		s.getData().add(notyet);
@@ -392,10 +397,12 @@ public class ExistedChargerCooker extends GeoCooker {
 		installed.getData().add(parkInstalled);
 		installed.getData().add(lotInstalled);
 		installed.getData().add(marketInstalled);
+		installed.getData().add(templeInstalled);
 		
 		notyet.getData().add(park.getFeatures().size());
 		notyet.getData().add(lot.getFeatures().size());
 		notyet.getData().add(market.getFeatures().size());
+		notyet.getData().add(temple.getFeatures().size());
 		
 		try (var fw = new FileWriter("data/公園停車場賣場安裝彙整.json")) {
 			JsonUtils.toPrettyPrintJson(fw, s);
@@ -421,6 +428,7 @@ public class ExistedChargerCooker extends GeoCooker {
 		var park = loadFeatureCollection("data/公園.geojson");
 		var lot = loadFeatureCollection("data/停車場.geojson");
 		var market = loadFeatureCollection("data/超級市場.geojson");
+		var temple = loadFeatureCollection("data/temple.geojson");
 		
 		var fc = GeoUtils.newFeatureCollection();
 		
@@ -466,6 +474,25 @@ public class ExistedChargerCooker extends GeoCooker {
 			String name = f.getProperty("name");
 			String district = f.getProperty("district");
 			String type = "賣場";
+			var p1 = ((Point) f.getGeometry()).getCoordinates();
+			
+			var installed = isNearBy(charger, p1);		
+			
+			var properties = new HashMap<String, Object>();
+			properties.put("name", name);
+			properties.put("district", district);
+			properties.put("type", type);
+			properties.put("installed", installed);
+			
+			var pe = new PointEntity(properties, p1.getLongitude(), p1.getLatitude());
+			
+			GeoUtils.addPoint(fc, pe);
+		}
+		
+		for (var f : temple.getFeatures()) {
+			String name = f.getProperty("name");
+			String district = f.getProperty("district");
+			String type = "寺廟";
 			var p1 = ((Point) f.getGeometry()).getCoordinates();
 			
 			var installed = isNearBy(charger, p1);		

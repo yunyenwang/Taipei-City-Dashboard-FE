@@ -34710,5 +34710,2741 @@
       "type" : "Point",
       "coordinates" : [ 121.48941, 25.1412 ]
     }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "中崙福順宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5474628, 25.0528364 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "台北佛教蓮社",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5595719, 25.0529458 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "台北府城隍廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5761796, 25.0494737 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "松山水福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.579102, 25.0516839 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "松山慈福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5797662, 25.051871 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "松山福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5741074, 25.0503159 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "松山聚福廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5704723, 25.0494631 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "松山霞海城隍廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5702152, 25.0498343 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "法光寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5570882, 25.0497982 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "松山區",
+      "name" : "財團法人台北市中崙福成宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.547005, 25.0453183 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "財團法人台北市放生念佛會",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.554072, 25.0427051 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "財團法人台北市松山慈祐宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5777039, 25.0510203 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5629349, 25.0492173 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "松山區",
+      "name" : "劍童廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.556378, 25.0484431 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "財團法人台北市松山寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5641009, 25.0238131 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "三張犁福佑宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5690108, 25.0279362 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "中坡福壽宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5852381, 25.0361174 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "代天殿靈雲宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.571115, 25.0275737 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "台北市松山五分埔福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5766944, 25.0476135 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "石泉巖",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5689149, 25.0120742 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "松山奉天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5848932, 25.0374823 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "松山順安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5684995, 25.0445202 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "松山慈惠堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5875271, 25.0365212 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "松山靈隱寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5814424, 25.0249763 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "狀元廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5653669, 25.0249429 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "信義天后宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5704016, 25.0194785 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "真光禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5873755, 25.0319192 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "信義區",
+      "name" : "港口奉聖宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5692323, 25.0118647 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "信義區",
+      "name" : "興雅福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5686804, 25.0446706 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "一心寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5383855, 25.0327899 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "大安車層景福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5549022, 25.0398294 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "台北市大安區福安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5474962, 25.0221229 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "法雲寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5335466, 25.0342857 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "夏教養聖堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5357859, 25.0440837 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "大安區",
+      "name" : "財團法人台北市天德堂總堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5621439, 25.0140368 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "財團法人台北市白雲禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5521099, 25.0320268 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "大安區",
+      "name" : "財團法人台北市圓通學苑",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5241223, 25.0292404 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "財團法人台北市福佑宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5426342, 25.043476 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "大安區",
+      "name" : "財團法人通化堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.543608, 25.0269454 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "福景宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5572795, 25.0296925 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大安區",
+      "name" : "福興宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5569561, 25.0340235 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "大安區",
+      "name" : "觀音禪院",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5333152, 25.0369488 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "下塔悠福德爺宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5565919, 25.0778722 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "中嶽殿",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.538319, 25.0683605 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "台北市文昌宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5209984, 25.0591923 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "台北市圓玄學社",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5335901, 25.0555043 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "台北市圓明宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5219592, 25.0617884 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "台北保霞宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.531264, 25.0585443 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "台北神德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5381638, 25.0689374 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "地藏庵",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5208322, 25.0730081 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人九府仙師普惠堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5206307, 25.0605992 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市中庄仔福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5290041, 25.0594405 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市朱厝崙福聚宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5420411, 25.0495165 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市妙道院",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5288888, 25.0649962 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市蓮友念佛團",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.541932, 25.0500391 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市臨濟護國禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5209556, 25.0724785 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北市雙境廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5341874, 25.059156 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "財團法人台北行天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5335421, 25.0627544 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "財團法人劍潭古寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5547174, 25.0860063 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "景新宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5291542, 25.0709232 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "新福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.526093, 25.0562025 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中山區",
+      "name" : "福正宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5244753, 25.0804012 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中山區",
+      "name" : "慧日講堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5412969, 25.0498619 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中正區",
+      "name" : "二二八公園福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5140942, 25.0411528 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "光華寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5155136, 25.0239166 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "長慶廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5217886, 25.0251039 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "財團法人台北市十普寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5227799, 25.0252379 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "財團法人台北市南福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5199268, 25.0269564 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中正區",
+      "name" : "財團法人台北市淨土宗善導寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5246551, 25.0447279 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "財團法人台北市華嚴蓮社",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5306492, 25.0403679 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中正區",
+      "name" : "財團法人台北市聖靈寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5277826, 25.0179587 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中正區",
+      "name" : "財團法人台北市臺灣省城隍廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5126973, 25.0440009 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "通法寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.516978, 25.0260356 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "中正區",
+      "name" : "蓮雲禪苑",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5297788, 25.0344561 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "中正區",
+      "name" : "寶藏巖",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5331245, 25.0104769 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "大橋頭福德廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5127685, 25.0712277 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "大龍峒福壽宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.520847, 25.0748966 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "北門口福聚宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5118431, 25.051636 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "台北保仁宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5175736, 25.0715224 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "台北霞海城隍廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5101729, 25.055629 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "平光寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.517759, 25.0756632 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "和德祠",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.510645, 25.0528445 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "法主公廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5120476, 25.0537505 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "祠宇媽祖宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5119478, 25.0602232 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市天師宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5112123, 25.0629369 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市至善堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5118615, 25.0595784 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市金萬成團",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5147508, 25.0624612 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市普濟寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.514213, 25.0504883 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市智仁宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5131937, 25.066834 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市萬和宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5120403, 25.0716059 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市聖觀寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5195256, 25.0542081 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市雙福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5190652, 25.058755 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北市覺修宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5136543, 25.0761787 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台北保安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.515562, 25.0731066 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人台灣佛教道友會",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5143451, 25.0596326 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "財團法人臺北市臺疆樂善壇",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5109024, 25.052136 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "菩提講堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5200956, 25.0522164 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "臺北市大龍峒包公廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.516399, 25.0763015 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "樹人書院文昌祠",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5118522, 25.0730159 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "龍雲寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5095718, 25.0641571 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "大同區",
+      "name" : "瞿公真人廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.512732, 25.05264 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "代天府北行宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.492332, 25.0349612 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "北天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4932111, 25.0371391 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "台北天后宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5063124, 25.0427419 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "台北市聖安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4904977, 25.0263299 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "台北朝天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4946511, 25.0294796 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "先天道院",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.495087, 25.0233084 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "妙覺精舍",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4952573, 25.0305899 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "東隆宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4920028, 25.0219175 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "青龍宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4924216, 25.0288002 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "財團法人台北市北安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.501567, 25.0297394 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "財團法人台北市法華寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5059507, 25.0387623 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "財團法人台北市艋舺龍山寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4999226, 25.0367553 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "財團法人台北市廣照宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4998734, 25.0228497 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "財團法人台北湄聖宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4947113, 25.0190023 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "財團法人理教總公所台灣清心堂公所",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.507131, 25.040335 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "財團法人艋舺清水巖祖師廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5026267, 25.0402574 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "清蓮宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4985074, 25.0351194 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "集義宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5012766, 25.0348872 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "新約龍華佛教聖國山保安堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5014374, 25.0388557 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "楊聖廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.497163, 25.0227806 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "艋舺青山宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4994949, 25.0399738 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "萬華區",
+      "name" : "艋舺龍津宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4996994, 25.0412869 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "蓮池寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4925097, 25.0367751 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "萬華區",
+      "name" : "巖清寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4920028, 25.0219175 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "天恩宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5922026, 24.9703899 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "文山區",
+      "name" : "木柵集應廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5685206, 24.9873616 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "文山區",
+      "name" : "台北文山興安宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5502105, 24.9963801 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "台北市大慈佛社",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5504735, 24.9894897 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "文山區",
+      "name" : "台北市文山區頂公館福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5377291, 25.0054581 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "台北市文山區溝子口福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5458956, 24.9869331 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "文山區",
+      "name" : "光淨寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5598272, 24.9911418 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "明德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5788458, 24.9700209 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "指南宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5866241, 24.9798983 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "凌振宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5508432, 24.9883184 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "財團法人台北市木柵忠順廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5646397, 24.9836043 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "文山區",
+      "name" : "財團法人台北市景美集應廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5419127, 24.9916684 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "財團法人萬慶巖清水祖師廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366923, 24.9949903 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "祥光寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5890004, 24.9883711 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "文山區",
+      "name" : "樟山寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5794011, 24.9730305 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "台北南港慈岩宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6152078, 25.0259078 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "南港區",
+      "name" : "玉成公園福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.584132, 25.04256 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "西新福壽宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5926686, 25.0576148 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "南港區",
+      "name" : "坤元宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6132184, 25.0603453 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "南港慈雲寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6173227, 25.0452341 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "後山坡福德爺廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5927183, 25.0458338 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "無極明聖宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6086807, 25.0518322 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "慈善總堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6153969, 25.0454094 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "南港區",
+      "name" : "護國九天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6333458, 25.0275865 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "三教山清靈宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.6181098, 25.0869446 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "內湖公_庄武身開漳聖王廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5864533, 25.091373 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "內湖承天宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5605527, 25.0922317 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "太陽堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5906882, 25.0876268 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "台北市內湖區碧霞宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5888558, 25.0940801 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "台北護國延平宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5834368, 25.0914076 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "竹月寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5716126, 25.0897563 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "金碧宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.594334, 25.0846413 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "恆光禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5891819, 25.1062177 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "峰碧山圓覺寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5907935, 25.0976546 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "財團法人金龍院",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.586304, 25.0922511 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "新坡尾福德廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5833447, 25.0895954 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "碧山巖開漳聖王廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5876012, 25.0973256 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "福德祠",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.596161, 25.0779959 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "內湖區",
+      "name" : "_頭福德祠",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5925522, 25.0835782 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "九蓮寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5549053, 25.0990648 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "士林街福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5161315, 25.0900608 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "天母三玉宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5355497, 25.1188747 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "台北市士林承德福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5222626, 25.0838484 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "台北市士林區合誠宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5760446, 25.1301785 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "台北地藏禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4914094, 25.0995353 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "永明寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5477621, 25.1073455 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "共和宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5053209, 25.0882726 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "吉祥寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5414266, 25.1233367 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "妙法寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5870433, 25.1234096 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "坤天亭",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4835128, 25.1064225 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "法雨山普宜苑",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.577179, 25.1213381 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "昭明寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5263943, 25.0831405 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "飛龍寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5366655, 25.1327329 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "財團法人台北市士林神農宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5264308, 25.0977753 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "財團法人台北市妙德蘭若",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5424801, 25.1056187 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "財團法人台北市南海普陀山慧濟寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.536167, 25.1263292 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "財團法人台北葫蘆寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5085985, 25.0853373 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "啟明佛寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5245068, 25.0908592 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "淨光寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5369808, 25.1278499 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "淨因寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5563592, 25.0999363 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "報恩寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5261785, 25.0850974 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "湧泉寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5554448, 25.0989185 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "無極天聖殿",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5795098, 25.1371751 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "陽明山公館里關聖帝君廟",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5654519, 25.124058 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "圓明寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5562126, 25.0994387 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "慈悟寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5325203, 25.1336317 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "慈諴宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5246704, 25.0894923 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "士林區",
+      "name" : "廣明寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5078972, 25.0896597 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "士林區",
+      "name" : "鶴鳴精舍",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.571968, 25.1299485 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "北投天保宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4960854, 25.1468819 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "北投代天府",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4977364, 25.1339666 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "北投區廣福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4993365, 25.1405554 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "北投集福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5033948, 25.1318825 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "台北市北投至妙寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.530713, 25.1486977 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "台北市關渡玉女宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4638045, 25.1174656 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "台北慈惠堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5050084, 25.1181497 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "石牌玄帝宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5124933, 25.1116013 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "汾陽宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5121294, 25.1123834 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "屈原宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5010632, 25.1020989 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "明山宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5290205, 25.1280334 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "法藏寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5135782, 25.1393993 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "桃源福德宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4851412, 25.1382553 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "祖師禪林",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5051981, 25.149649 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "財團法人台北市中和堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5071325, 25.1305863 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "財團法人台北市中華佛教文化館",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5106199, 25.1362707 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "財團法人台北市北投區慈生宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5070195, 25.1196354 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "財團法人台北市北投區靈山大慈寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5153475, 25.1507691 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "財團法人台北市北投慈后宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.502009, 25.1282601 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "財團法人台北市法雨寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5176869, 25.1475974 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "財團法人台北市關渡宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4640371, 25.1176551 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "財團法人陽明山五福宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5125875, 25.0632053 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "普濟寺（原名鐵真院）",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5112175, 25.1359703 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "陽明山慈惠堂",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5064542, 25.1298771 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "雲來寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5069986, 25.1284986 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "慈航寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4961688, 25.1451614 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "農禪寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.495165, 25.1219023 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "福星宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5123856, 25.1104075 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "福慈宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4761668, 25.1379707 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "福裕宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5173241, 25.1027372 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "關渡萬善同公祠",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.4651035, 25.1241817 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "靈法寺",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5045395, 25.1425361 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : true,
+      "district" : "北投區",
+      "name" : "觀音禪院",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5080174, 25.1249483 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "installed" : false,
+      "district" : "北投區",
+      "name" : "台北市北投區洲美三王宮",
+      "type" : "寺廟"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 121.5055982, 25.1002282 ]
+    }
   } ]
 }
