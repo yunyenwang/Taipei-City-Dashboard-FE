@@ -147,9 +147,9 @@ export const useMapStore = defineStore("map", {
 					this.turnOnMapLayerVisibility(mapLayerId);
 
 					if (map_config.cluster) {
-						this.turnOnClusterMapLayerVisibility();
+						this.turnOnClusterMapLayerVisibility(map_config);
 					}
-					
+
 					if (
 						!this.currentVisibleLayers.find(
 							(element) => element === mapLayerId
@@ -245,7 +245,7 @@ export const useMapStore = defineStore("map", {
 			// if it has cluster
 			if (map_config.cluster) {
 				this.map.addLayer({
-					id: "cluster-count",
+					id: map_config.layerId + "cluster-count",
 					type: "symbol",
 					source: `${map_config.layerId}-source`,
 					filter: ["has", "point_count"],
@@ -258,9 +258,8 @@ export const useMapStore = defineStore("map", {
 						"text-size": 12,
 					},
 				});
-
 				this.map.addLayer({
-					id: "unclustered-point",
+					id: map_config.layerId + "unclustered-point",
 					type: "circle",
 					source: `${map_config.layerId}-source`,
 					filter: ["!", ["has", "point_count"]],
@@ -271,7 +270,6 @@ export const useMapStore = defineStore("map", {
 						// 'circle-stroke-color': '#fff'
 					},
 				});
-
 			}
 			this.currentLayers.push(map_config.layerId);
 			this.mapConfigs[map_config.layerId] = map_config;
@@ -377,9 +375,17 @@ export const useMapStore = defineStore("map", {
 			this.map.setLayoutProperty(mapLayerId, "visibility", "visible");
 		},
 		// 5-1 Turn on the visibility for cluster maps
-		turnOnClusterMapLayerVisibility() {
-			this.map.setLayoutProperty("cluster-count", "visibility", "visible");
-			this.map.setLayoutProperty("unclustered-point", "visibility", "visible");
+		turnOnClusterMapLayerVisibility(map_config) {
+			this.map.setLayoutProperty(
+				map_config.layerId + "cluster-count",
+				"visibility",
+				"visible"
+			);
+			this.map.setLayoutProperty(
+				map_config.layerId + "unclustered-point",
+				"visibility",
+				"visible"
+			);
 		},
 		// 6. Turn off the visibility of an exisiting map layer but don't remove it completely
 		turnOffMapLayerVisibility(map_config) {
@@ -397,18 +403,18 @@ export const useMapStore = defineStore("map", {
 						"none"
 					);
 				}
-				if (this.map.getLayer("cluster-count")) {
+				if (this.map.getLayer(mapLayerId + "cluster-count")) {
 					this.map.setFilter(mapLayerId, null);
 					this.map.setLayoutProperty(
-						"cluster-count",
+						mapLayerId + "cluster-count",
 						"visibility",
 						"none"
 					);
 				}
-				if (this.map.getLayer("unclustered-point")) {
+				if (this.map.getLayer(mapLayerId + "unclustered-point")) {
 					this.map.setFilter(mapLayerId, null);
 					this.map.setLayoutProperty(
-						"unclustered-point",
+						mapLayerId + "unclustered-point",
 						"visibility",
 						"none"
 					);
