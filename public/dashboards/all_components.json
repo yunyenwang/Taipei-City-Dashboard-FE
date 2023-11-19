@@ -4088,11 +4088,11 @@
 						"circle-color": [
 							"step",
 							["get", "point_count"],
-							"#A4303F",
+							"#d7370c",
 							5,
-							"#FFB7E6",
+							"#f35024",
 							15,
-							"#F5D3ED"
+							"#f57654"
 						],
 						"circle-radius": [
 							"step",
