@@ -1,0 +1,81 @@
+{
+  "data" : [ {
+    "type" : null,
+    "name" : "",
+    "x" : null,
+    "y" : null,
+    "data" : [ {
+      "type" : null,
+      "name" : null,
+      "x" : "北投區",
+      "y" : 1354,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "士林區",
+      "y" : 1754,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "內湖區",
+      "y" : 1842,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "南港區",
+      "y" : 637,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "松山區",
+      "y" : 2190,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "信義區",
+      "y" : 2166,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "中山區",
+      "y" : 3457,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "大同區",
+      "y" : 1725,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "中正區",
+      "y" : 2457,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "萬華區",
+      "y" : 1831,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "大安區",
+      "y" : 3888,
+      "data" : null
+    }, {
+      "type" : null,
+      "name" : null,
+      "x" : "文山區",
+      "y" : 1,
+      "data" : null
+    } ]
+  } ]
+}

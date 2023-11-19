@@ -155,7 +155,7 @@ public class IdleLandApiTest extends GeoCooker {
 			// 將GeoJSON寫入文件
 			ObjectMapper objectMapper = new ObjectMapper();
 			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-			objectMapper.writeValue(new File(String.format("%s行政區統計.geojson", name)), districtss);
+			objectMapper.writeValue(new File(String.format("%s行政區統計.json", name)), districtss);
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -188,31 +188,30 @@ public class IdleLandApiTest extends GeoCooker {
 		}
 		log.error(JsonUtils.toPrettyPrintJson(fdateCount));
 		
-		 // 將計算結果轉換成指定格式的JSON
-        ObjectMapper objectMapper = new ObjectMapper();
-        ArrayNode dataArray = objectMapper.createArrayNode();
-        ObjectNode dataObject = objectMapper.createObjectNode();
-        ArrayNode dataPoints = objectMapper.createArrayNode();
-        for (Map.Entry<String, Integer> entry : fdateCount.entrySet()) {
-        	
-        	 Date date = inputFormat.parse(entry.getKey());
-             String formattedDate = outputFormat.format(date);
-        	
-            ObjectNode dataPoint = objectMapper.createObjectNode();
-            dataPoint.put("x", formattedDate);
-            dataPoint.put("y", entry.getValue());
-           
-            dataPoints.add(dataPoint);
-        }
-        dataObject.put("name", "台北歷史積水次數加總");
-        dataObject.set("data", dataPoints);
-        dataArray.add(dataObject);
-        ObjectNode outputObject = objectMapper.createObjectNode();
-        outputObject.set("data", dataArray);
-
-		
+		// 將計算結果轉換成指定格式的JSON
+		ObjectMapper objectMapper = new ObjectMapper();
+		ArrayNode dataArray = objectMapper.createArrayNode();
+		ObjectNode dataObject = objectMapper.createObjectNode();
+		ArrayNode dataPoints = objectMapper.createArrayNode();
+		// 對 fdateCount 的鍵值進行排序
+		List<String> sortedDates = new ArrayList<>(fdateCount.keySet());
+		Collections.sort(sortedDates);  // 將日期排序
+		for (String fdate : sortedDates) {
+		    int count = fdateCount.get(fdate);
+		    Date date = inputFormat.parse(fdate);
+		    String formattedDate = outputFormat.format(date);
+		    ObjectNode dataPoint = objectMapper.createObjectNode();
+		    dataPoint.put("x", formattedDate);
+		    dataPoint.put("y", count);
+		    dataPoints.add(dataPoint);
+		}
+		dataObject.put("name", "台北歷史積水次數加總");
+		dataObject.set("data", dataPoints);
+		dataArray.add(dataObject);
+		ObjectNode outputObject = objectMapper.createObjectNode();
+		outputObject.set("data", dataArray);
 		try (var fw = new FileWriter("data/積水次數加總.json")) {
-			JsonUtils.toPrettyPrintJson(fw, outputObject);
+		    JsonUtils.toPrettyPrintJson(fw, outputObject);
 		}
 	}
 	
@@ -285,7 +284,7 @@ public class IdleLandApiTest extends GeoCooker {
 	                }
 	                outputGeojson.put("data", data);
 	                // 寫入輸出檔案
-	                String outputFilePath = townName + "積水最高值與最低值.geojson";
+	                String outputFilePath = townName + "積水最高值與最低值.json";
 	                FileWriter writer = new FileWriter(outputFilePath);
 	                writer.write(outputGeojson.toString());
 	                writer.close();

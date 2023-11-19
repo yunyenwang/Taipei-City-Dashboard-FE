@@ -459,7 +459,7 @@ public class DataTaipeiApiTest extends GeoCooker {
 	}
 
 	/**
-	 * 變電站統計(from geojson)
+	 * 變壓器統計(from geojson)
 	 * 
 	 * @throws Exception
 	 */
@@ -501,6 +501,50 @@ public class DataTaipeiApiTest extends GeoCooker {
 			e.printStackTrace();
 		}
 	}
+	
+	/**
+	 * 變電站統計(from geojson)
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	void toTransformerStationsSummaryGeoJson() throws Exception {
+
+		try {
+			var file = "data/配電站.geojson";
+			String name = file.substring(0, file.lastIndexOf("."));
+			// 讀取JSON檔案
+			JSONObject json = readJSONFile(file);
+			// 提取features陣列
+			JSONArray features = json.getJSONArray("features");
+			// 建立儲存district的List
+			List<String> districts = new ArrayList<>();
+			// 遍歷features陣列
+			for (int i = 0; i < features.length(); i++) {
+				JSONObject feature = features.getJSONObject(i);
+				JSONObject properties = feature.getJSONObject("properties");
+				String district = properties.optString("district", "");
+				districts.add(district);
+			}
+
+			var districtss = Summary.districts();
+
+			// 遍歷featureMember
+			for (String district : districts) {
+
+				districtss.increase(district, 1);
+
+			}
+			log.info("lon: {}", JsonUtils.toPrettyPrintJson(districtss));
+			// 將GeoJSON寫入文件
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+			objectMapper.writeValue(new File(String.format("%s行政區統計.geojson", name)), districtss);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	/**
 	 * 變電箱統計(第三組建)
@@ -511,26 +555,26 @@ public class DataTaipeiApiTest extends GeoCooker {
 	void merge() throws Exception {
 		try {
 			// 讀取配電站.geojson檔案
-//			JSONObject geojson1 = readJSONFile("data/配電站.geojson");
+			JSONObject geojson1 = readJSONFile("data/配電站行政區統計.geojson");
 			// 讀取配電箱.geojson檔案
 			JSONObject geojson2 = readJSONFile("data/變壓器行政區統計.geojson");
 			// 提取配電站和配電箱的數據
-//			JSONArray data1 = geojson1.getJSONArray("data").getJSONObject(0).getJSONArray("data");
+			JSONArray data1 = geojson1.getJSONArray("data").getJSONObject(0).getJSONArray("data");
 			JSONArray data2 = geojson2.getJSONArray("data").getJSONObject(0).getJSONArray("data");
 			// 依照固定行政區順序組合數據
 			String[] districts = { "北投區", "士林區", "內湖區", "南港區", "松山區", "信義區", "中山區", "大同區", "中正區", "萬華區", "大安區", "文山區" };
 			JSONArray combinedData = new JSONArray();
-//			JSONArray data1Combined = new JSONArray();
-//			for (String district : districts) {
-//				int index = getIndex(data1, district);
-//				if (index != -1) {
-//					data1Combined.put(data1.getJSONObject(index).getInt("y"));
-//				}
-//			}
-//			JSONObject data1Object = new JSONObject();
-//			data1Object.put("name", "配電站");
-//			data1Object.put("data", data1Combined);
-//			combinedData.put(data1Object);
+			JSONArray data1Combined = new JSONArray();
+			for (String district : districts) {
+				int index = getIndex(data1, district);
+				if (index != -1) {
+					data1Combined.put(data1.getJSONObject(index).getInt("y"));
+				}
+			}
+			JSONObject data1Object = new JSONObject();
+			data1Object.put("name", "配電站");
+			data1Object.put("data", data1Combined);
+			combinedData.put(data1Object);
 			JSONArray data2Combined = new JSONArray();
 			for (String district : districts) {
 				int index = getIndex(data2, district);
