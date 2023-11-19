@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
@@ -280,15 +281,19 @@ public class IdleLandApiTest extends GeoCooker {
 	                    Date date = inputFormat.parse(fdate);
 	                    String formattedDate = outputFormat.format(date);
 	                    item.put("x", formattedDate);
-	                    item.put("y", List.of(depths[0], depths[1]));
+	                    item.put("y", new JSONArray(Arrays.asList(depths[0], depths[1])));
 	                    data.put(item);
 	                }
 	                outputGeojson.put("data", data);
+	                
+	                
+	                
 	                // 寫入輸出檔案
 	                String outputFilePath = townName + "積水最高值與最低值.json";
 	                FileWriter writer = new FileWriter(outputFilePath);
 	                writer.write(outputGeojson.toString());
 	                writer.close();
+
 	            }
 	        } catch (IOException e) {
 	            e.printStackTrace();
