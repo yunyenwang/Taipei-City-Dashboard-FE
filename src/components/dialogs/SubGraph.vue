@@ -23,6 +23,7 @@ var rangeData = ref(null)
 const dialogStore = useDialogStore();
 
 var series = ref([]);
+var chart = ref("chart")
 
 function handleClose() {
 	series.value = []
@@ -60,7 +61,12 @@ async function getData() {
 		console.error(e);
 	});
 
-	series.value = [averageData, rangeData];
+	// series.value = [averageData, rangeData];
+	chart.value.updateOptions(
+		{
+			series: [averageData, rangeData]
+		}
+	)
 }
 
 
@@ -126,8 +132,7 @@ const chartOptions = ref({
 		
 		<h2>{{ props.district }}</h2>
 		<div id="chart">
-			<apexchart
-				v-show="series.length > 0"
+			<apexchart ref="chart"
 				height="400"
 				width="400"
 				:options="chartOptions"
