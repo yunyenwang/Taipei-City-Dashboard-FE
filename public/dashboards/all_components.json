@@ -4349,18 +4349,18 @@
 				]
 			},
 			"name": "配電站分佈",
-			"source": "環保局",
+			"source": "工務局",
 			"time_from": "2023-07-28T00:00:00+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示台北市所有垃圾車收運的點位。",
-			"long_desc": "顯示顯示台北市所有垃圾車收運的點位，資料來源為台北市環保局開放資料，不定期更新。",
-			"use_case": "透過這些點位資訊，我們可以更有效地安排垃圾車的收運路線，提升垃圾處理的效率，同時也能了解垃圾處理設施的分佈情況，並根據需求進行相應的環保政策調整。",
+			"short_desc": "顯示台北市所有配電站於各行政區設置統計。",
+			"long_desc": "顯示台北市所有配電站於各行政區設置統計，資料來源為台北市工務局開放資料，不定期更新。",
+			"use_case": "提供全市各行政區配電站設置之統計，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+				"https://data.taipei/dataset/detail?id=f042429c-2080-4f68-ada8-037b15901fbb"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		},
 		"152": {
 			"id": 152,
@@ -4420,15 +4420,15 @@
 				]
 			},
 			"name": "變壓器分佈",
-			"source": "環保局",
+			"source": "工務局",
 			"time_from": "2023-07-28T00:00:00+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示台北市所有垃圾車收運的點位。",
-			"long_desc": "顯示顯示台北市所有垃圾車收運的點位，資料來源為台北市環保局開放資料，不定期更新。",
-			"use_case": "透過這些點位資訊，我們可以更有效地安排垃圾車的收運路線，提升垃圾處理的效率，同時也能了解垃圾處理設施的分佈情況，並根據需求進行相應的環保政策調整。",
+			"short_desc": "顯示台北市所有變壓器於各行政區設置統計。",
+			"long_desc": "顯示台北市所有變壓器於各行政區設置統計，資料來源為台北市工務局開放資料，不定期更新。",
+			"use_case": "提供全市各行政區變壓器設置之統計，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae"
+				"https://data.taipei/dataset/detail?id=42599405-e217-4433-aa45-fcc84f99eb89"
 			],
 			"tags": [],
 			"contributors": ["tuic"]
