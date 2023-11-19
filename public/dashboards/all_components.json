@@ -4396,7 +4396,7 @@
 					"文山區"
 				],
 				"types": ["RadarChart", "ColumnChart"],
-				"color": ["#D63940"],
+				"color": ["#38D6C9"],
 				"unit": "座",
 				"map_filter": [
 					"dist",

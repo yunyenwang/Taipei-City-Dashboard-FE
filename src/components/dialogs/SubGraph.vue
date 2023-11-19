@@ -22,10 +22,7 @@ var rangeData = ref(null)
 
 const dialogStore = useDialogStore();
 
-var series = ref([
-	averageData,
-	rangeData
-]);
+var series = ref([]);
 
 function handleClose() {
 	series.value = []
@@ -130,7 +127,7 @@ const chartOptions = ref({
 		<h2>{{ props.district }}</h2>
 		<div id="chart">
 			<apexchart
-				v-if="series.length > 1"
+				v-show="series.length > 0"
 				height="400"
 				width="400"
 				:options="chartOptions"
