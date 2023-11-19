@@ -4119,8 +4119,8 @@
 				{
 					"index": "chargepoint_area",
 					"paint": {
-						"fill-color": "#00ff00",
-						"fill-opacity": 0.5
+						"fill-color": "#EEB2A5",
+						"fill-opacity": 0.2
 					},
 					"property": [
 						{
