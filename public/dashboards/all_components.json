@@ -4088,11 +4088,11 @@
 						"circle-color": [
 							"step",
 							["get", "point_count"],
-							"#d7370c",
+							"#A4303F",
 							5,
-							"#f35024",
+							"#FFB7E6",
 							15,
-							"#f57654"
+							"#F5D3ED"
 						],
 						"circle-radius": [
 							"step",
@@ -4262,9 +4262,9 @@
 			"time_to": "2023-05-29T14:50:55+08:00",
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示全市閒置市有公有土地數量統計。",
-			"long_desc": "顯示全市閒置市有公有土地數量統計，資料來源為台北市財政局開放資料，每6月更新。",
-			"use_case": "顯示全市閒置市有公有土地資訊提供充電樁建置規劃，若需更詳細的資料可透過地圖模式進行查詢。",
+			"short_desc": "顯示全市非公用閒置土地數量統計。",
+			"long_desc": "顯示全市非公用閒置土地數量統計，資料來源為台北市財政局開放資料，每6月更新。",
+			"use_case": "顯示全市非公用閒置土地資訊可作為充電樁建置規劃，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=1c9d765f-69e4-4c79-9645-42cbfb92f418"
 			],
@@ -4520,14 +4520,15 @@
 			"time_to": null,
 			"update_freq": 10,
 			"update_freq_unit": "minute",
-			"short_desc": "顯示當前全市道路施工的數量統計",
-			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
+			"short_desc": "顯示全市各行政區歷史積水次數統計。",
+			"long_desc": "顯示全市各行政區歷史積水次數統計，資料來源為工務局水利處、，每10分鐘更新。",
 			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
+				"https://data.taipei/dataset/detail?id=fa1e8012-ebb4-473b-888e-97f9a9ce365e",
+				"https://data.taipei/dataset/detail?id=f98010ed-281d-4334-9596-ca7d740cc06f"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": ["chteng"]
 		}
 	}
 }
