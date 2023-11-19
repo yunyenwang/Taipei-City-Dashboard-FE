@@ -4147,7 +4147,7 @@
 			"update_freq_unit": "day",
 			"short_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計",
 			"long_desc": "顯示全市停車場充電樁安裝數量於各行政區的統計，資料來源為臺北市停車管理工程處開放資料，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各行政區的統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"use_case": "統計台北市各行政區的停車場充電樁安裝數量，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://pma.gov.taipei/News_Content.aspx?n=55FFEA3DC5E133C1&sms=3C6083D91895B788&s=386DD09648B36809"
 			],
@@ -4199,7 +4199,7 @@
 			"update_freq_unit": null,
 			"short_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計。",
 			"long_desc": "顯示全市公園、停車場、超級市場安裝充電樁之現況統計，資料來源為台北市工務局、交通局停管處、產業局市場處開放資料，不定期更新。",
-			"use_case": "圖表所呈現的內容僅限於北市停車場充電樁安裝數量於各場域(公園、停車場、超級市場)統計，若需更詳細的資料可透過地圖模式進行查詢。",
+			"use_case": "統計台北市各場域充電樁安裝數量之現況統計(公園、停車場、超級市場)，若需更詳細的資料可透過地圖模式進行查詢。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=5b277432-f534-4d09-a24c-d3f6b514e042",
 				"https://data.taipei/dataset/detail?id=d5c0656b-5250-4179-a491-c94daa56ef2c",
@@ -4239,7 +4239,7 @@
 				"unit": "筆"
 			},
 			"name": "非公用閒置土地",
-			"source": "消防局",
+			"source": "財政局",
 			"history_data": false,
 			"time_from": "2023-05-01T00:00:00+08:00",
 			"time_to": "2023-05-29T14:50:55+08:00",
@@ -4248,7 +4248,9 @@
 			"short_desc": "顯示全市閒置市有公有土地數量統計。",
 			"long_desc": "顯示全市閒置市有公有土地數量統計，資料來源為台北市財政局開放資料，每6月更新。",
 			"use_case": "顯示全市閒置市有公有土地資訊提供充電樁建置規劃，若需更詳細的資料可透過地圖模式進行查詢。",
-			"links": null,
+			"links": [
+				"https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=1c9d765f-69e4-4c79-9645-42cbfb92f418"
+			],
 			"tags": [],
 			"contributors": ["chteng"]
 		}
