@@ -397,6 +397,92 @@ public class DataTaipeiApiTest extends GeoCooker {
 			e.printStackTrace();
 		}
 	}
+	
+	/**
+	 * 變電箱
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	void toTransformerBoxsGeoJson() throws Exception {
+
+		try {
+			var file = "data/變壓器.xml";
+			String name = file.substring(0, file.lastIndexOf("."));
+
+			File xmlFile = new File(file);
+
+			// 將XML轉換為JsonNode
+			JsonNode jsonNode = xmlMapper.readTree(xmlFile);
+
+			// 提取featureMember的數據
+			JsonNode features = jsonNode.get("featureMember");
+			var head = "UTL_其他設施";
+
+			var fc = GeoUtils.newFeatureCollection();
+			// 遍歷featureMember
+			for (JsonNode feature : features) {
+				// 提取設施名稱
+				String facilityName = feature.get(head).get("設施名稱").asText();
+				// 只保留設施名稱為"變電箱"的資料
+				if (facilityName.contains("變電箱")) {
+
+					// 提取座標數據
+					String coordinates = feature.get(head).get("geometry").get("Point").get("coordinates").asText();
+					String[] coordinateArray = coordinates.split(" ");
+					double longitude = Double.parseDouble(coordinateArray[0]);
+					double latitude = Double.parseDouble(coordinateArray[1]);
+					var result = t.transform(new ProjCoordinate(longitude, latitude), new ProjCoordinate());
+
+					var lon = result.x;
+					var lan = result.y;
+
+					// log.info("{}, {}", result.x, result.y); // 250000.0 2544283.12479424
+
+					Map<String, Object> properties = new HashMap<String, Object>();
+					Iterator<String> fieldNames = feature.get(head).fieldNames();
+					while (fieldNames.hasNext()) {
+						String fieldName = fieldNames.next();
+						if (!fieldName.equals("geometry")) {
+							JsonNode fieldValue = feature.get(head).get(fieldName);
+							properties.put(fieldName, fieldValue.asText());
+						}
+
+					}
+
+					findByLatLon(lan, lon).ifPresent(me -> {
+
+						var district = me.getAddress().getSuburb();
+
+						// 將設置日期加入屬性
+						properties.put("district", district);
+						log.info("lon: {}, lat: {}, district:{}", me.getLon(), me.getLat(), district);
+
+					});
+
+					// 提取設置日期
+					String setDate = "";
+					JsonNode timeInstant = feature.get(head).get("設置日期").get("TimeInstant");
+					if (timeInstant != null) {
+						setDate = timeInstant.get("timePosition").asText();
+					}
+					// 將設置日期加入屬性
+					properties.put("設置日期", setDate);
+
+					var pe = new PointEntity(properties, lon, lan);
+					GeoUtils.addPoint(fc, pe);
+				}
+			}
+
+			// 將GeoJSON寫入文件
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+			objectMapper.writeValue(new File(String.format("%s.geojson", "變電箱")), fc);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	/**
 	 * 變電箱統計
